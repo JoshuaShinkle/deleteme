@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical"
+        android:id="@+id/friend_name"
+        android:background="@color/you_color_normal_gray_text"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <View style="@style/DialogSelectionItemSpliteLine"/>
+    <TextView
+        android:id="@+id/unblock_click"
+        android:text="@string/unblock"
+        android:contentDescription="[AID]Blocked_Unblock"
+        style="@style/DialogSelectionItemText"/>
+    <View style="@style/DialogSelectionItemSpliteLine"/>
+    <TextView
+        android:id="@+id/unfriend_click"
+        android:text="@string/unfriend"
+        android:contentDescription="[AID]Blocked_Unfriend"
+        style="@style/DialogSelectionItemText"/>
+</LinearLayout>

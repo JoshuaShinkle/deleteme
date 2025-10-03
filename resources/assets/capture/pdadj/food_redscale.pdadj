@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{86060e47-761f-4a88-a1f2-03d70f5b7737}</guid>
+  <name>
+    <def>Redscale</def>
+    <chs>
+    反转底片
+    </chs>
+    <cht>
+    反轉底片
+    </cht>
+    <deu>
+    Rotskala
+    </deu>
+    <enu>
+    Redscale
+    </enu>
+    <esp>
+    Escala de rojos
+    </esp>
+    <fra>
+    Échelle de rouges
+    </fra>
+    <ita>
+    Scala di rossi
+    </ita>
+    <jpn>
+    レッドスケール
+    </jpn>
+    <kor>
+    레드스케일
+    </kor>
+    <nld>
+    Roodschaal
+    </nld>
+    <rus>
+    Шкала красного
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>false</live>
+    <capture>true</capture>
+    <edit>false</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>ENABLE_SMOOTH</FilterType>
+        <EffectMode>FOOD_REDSCALE</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

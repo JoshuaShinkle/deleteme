@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/clm_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/fakeStatusBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fakeStatusBar">
+        <include
+            android:id="@+id/remoteViewPanel1"
+            layout="@layout/view_item_meeting_remote_render_panel"/>
+        <include
+            android:id="@+id/remoteViewPanel2"
+            layout="@layout/view_item_meeting_remote_render_panel"/>
+    </RelativeLayout>
+</RelativeLayout>

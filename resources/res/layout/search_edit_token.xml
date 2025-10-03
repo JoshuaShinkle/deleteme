@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_edittext_radius_gray_border"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:baselineAligned="false"
+    android:layout_centerVertical="true">
+    <TextView
+        android:textColor="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="test"/>
+    <com.cyberlink.you.widgetpool.tokenautocomplete.PeopleCompleteView
+        android:textColor="@color/you_color_normal_gray"
+        android:textColorHighlight="@color/you_color_normal_gray"
+        android:textColorHint="@color/you_color_normal_gray"
+        android:id="@+id/token_complete"
+        android:background="@null"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_centerVertical="true"
+        android:inputType="textNoSuggestions"
+        android:textCursorDrawable="@null"/>
+</RelativeLayout>

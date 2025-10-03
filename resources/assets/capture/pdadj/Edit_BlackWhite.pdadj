@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{8ED07A70-4DD4-4e1c-8846-D9B0220D37CC}</guid>
+  <name>
+    <def>B&amp;W</def>
+	<chs>
+      黑白
+    </chs>
+    <cht>
+      黑白
+    </cht>
+    <deu>
+      Schwarzweiß
+    </deu>
+    <enu>
+      B&amp;W
+    </enu>
+    <esp>
+      Blanco y negro
+    </esp>
+    <fra>
+      Noir et blanc
+    </fra>
+    <ita>
+      Bianco e Nero
+    </ita>
+    <jpn>
+      白黒
+    </jpn>
+    <kor>
+      흑백
+    </kor>
+    <rus>
+      Черно- Белый
+    </rus>
+    <nld>
+     Zwart-wit
+    </nld>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>Sheryl_Chen</creator>
+  <application_name>YouCamPerfect</application_name>
+  <smart_focus_mode>(1, 1, 1)</smart_focus_mode>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>true</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>    
+    <CLBlackWhiteColorFilter>DISABLE_SMOOTH</CLBlackWhiteColorFilter>
+  </body>
+</preset>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/sharePhotosLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sharePhotos"
+            android:text="@string/send_photos_to_chat"
+            android:contentDescription="[AID]AlbumMore_ToChat"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/sharePhotosWithCommentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sharePhotosWithComment"
+            android:text="@string/send_photos_with_comment"
+            android:contentDescription="[AID]AlbumMore_WithComment"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/copyToMyAlbumLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/copyToMyAlbum"
+            android:text="@string/save_photos_to_my_album"
+            android:contentDescription="[AID]AlbumMore_ToMyAlbum"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/savePhotosLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/savePhotos"
+            android:text="@string/save_photos_to_my_device"
+            android:contentDescription="[AID]AlbumMore_ToDevice"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/saveToGroupAlbumLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/saveToGroupAlbum"
+            android:text="@string/save_photos_to_group_album"
+            android:contentDescription="[AID]MediaMore_saveToGroupAlbum"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/renameAlbumLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/renameAlbum"
+            android:text="@string/rename_album"
+            android:contentDescription="[AID]AlbumMore_Rename"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/deletePhotosLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/you_color_delete_red"
+            android:id="@+id/deletePhotos"
+            android:text="@string/delete_photos"
+            android:contentDescription="[AID]AlbumMore_DelPhoto"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/deleteAlbumLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/you_color_delete_red"
+            android:id="@+id/deleteAlbum"
+            android:text="@string/delete_album"
+            android:contentDescription="[AID]AlbumMore_Delete"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/DialogCancel"
+        android:contentDescription="[AID]AlbumMore_Cancel"
+        style="@style/DialogSelectionItemCancelText"/>
+</LinearLayout>

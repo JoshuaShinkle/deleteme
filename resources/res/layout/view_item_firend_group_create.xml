@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <ImageView
+        android:id="@+id/GroupCreateImageView"
+        style="@style/ChatGroupItemAvatarSmall"/>
+    <CheckBox
+        android:id="@+id/GroupCreateMemberCheckBox"
+        android:visibility="visible"
+        style="@style/ChatGroupItemCheckBox"/>
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:id="@+id/GroupCreateMemberName"
+        android:layout_toLeftOf="@+id/GroupCreateMemberCheckBox"
+        android:layout_toRightOf="@+id/GroupCreateImageView"
+        style="@style/ChatGroupItemNameOnly"/>
+</RelativeLayout>

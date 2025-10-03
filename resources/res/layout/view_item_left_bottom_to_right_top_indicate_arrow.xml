@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyberlink.you.widgetpool.common.FixedAspectRatioLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/bottom_to_right_top_indicate_arrow"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:guideline_height="390"
+    app:guideline_width="1080">
+    <com.cyberlink.you.widgetpool.common.FixedAspectRatioFrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:guideline_height="390"
+        app:guideline_width="790"/>
+    <com.cyberlink.you.widgetpool.common.FixedAspectRatioFrameLayout
+        android:background="@drawable/indicate_arrow"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:guideline_height="390"
+        app:guideline_width="254"/>
+</com.cyberlink.you.widgetpool.common.FixedAspectRatioLinearLayout>

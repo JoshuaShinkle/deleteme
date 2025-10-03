@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/ycl_gift_panel_border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/emoji_pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/t166dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/waitingCircle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/t30dp"
+        android:minWidth="@dimen/t148dp"
+        android:layout_centerHorizontal="true">
+        <ProgressBar
+            android:layout_width="@dimen/t38dp"
+            android:layout_height="@dimen/t38dp"
+            android:layout_marginTop="@dimen/t16dp"
+            android:indeterminateDrawable="@drawable/layer_list_waiting_cursor"
+            android:indeterminateBehavior="repeat"/>
+        <TextView
+            android:textSize="@dimen/t14sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/t12dp"
+            android:text="@string/processing"/>
+    </LinearLayout>
+</RelativeLayout>

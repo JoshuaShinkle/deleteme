@@ -1,0 +1,76 @@
+package p016b5;
+
+import android.R;
+
+/* renamed from: b5.d */
+/* loaded from: classes2.dex */
+public final class C0688d {
+    public static final int ColorStateListItem_alpha = 2;
+    public static final int ColorStateListItem_android_alpha = 1;
+    public static final int ColorStateListItem_android_color = 0;
+    public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
+    public static final int CoordinatorLayout_Layout_layout_anchor = 1;
+    public static final int CoordinatorLayout_Layout_layout_anchorGravity = 2;
+    public static final int CoordinatorLayout_Layout_layout_behavior = 3;
+    public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 4;
+    public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
+    public static final int CoordinatorLayout_Layout_layout_keyline = 6;
+    public static final int CoordinatorLayout_keylines = 0;
+    public static final int CoordinatorLayout_statusBarBackground = 1;
+    public static final int DragSortListView_click_remove_id = 0;
+    public static final int DragSortListView_collapsed_height = 1;
+    public static final int DragSortListView_drag_enabled = 2;
+    public static final int DragSortListView_drag_handle_id = 3;
+    public static final int DragSortListView_drag_scroll_start = 4;
+    public static final int DragSortListView_drag_start_mode = 5;
+    public static final int DragSortListView_drop_animation_duration = 6;
+    public static final int DragSortListView_fling_handle_id = 7;
+    public static final int DragSortListView_float_alpha = 8;
+    public static final int DragSortListView_float_background_color = 9;
+    public static final int DragSortListView_max_drag_scroll_speed = 10;
+    public static final int DragSortListView_remove_animation_duration = 11;
+    public static final int DragSortListView_remove_enabled = 12;
+    public static final int DragSortListView_remove_mode = 13;
+    public static final int DragSortListView_slide_shuffle_speed = 14;
+    public static final int DragSortListView_sort_enabled = 15;
+    public static final int DragSortListView_track_drag_sort = 16;
+    public static final int DragSortListView_use_default_controller = 17;
+    public static final int FontFamilyFont_android_font = 0;
+    public static final int FontFamilyFont_android_fontStyle = 2;
+    public static final int FontFamilyFont_android_fontVariationSettings = 4;
+    public static final int FontFamilyFont_android_fontWeight = 1;
+    public static final int FontFamilyFont_android_ttcIndex = 3;
+    public static final int FontFamilyFont_font = 5;
+    public static final int FontFamilyFont_fontStyle = 6;
+    public static final int FontFamilyFont_fontVariationSettings = 7;
+    public static final int FontFamilyFont_fontWeight = 8;
+    public static final int FontFamilyFont_ttcIndex = 9;
+    public static final int FontFamily_fontProviderAuthority = 0;
+    public static final int FontFamily_fontProviderCerts = 1;
+    public static final int FontFamily_fontProviderFetchStrategy = 2;
+    public static final int FontFamily_fontProviderFetchTimeout = 3;
+    public static final int FontFamily_fontProviderPackage = 4;
+    public static final int FontFamily_fontProviderQuery = 5;
+    public static final int GradientColorItem_android_color = 0;
+    public static final int GradientColorItem_android_offset = 1;
+    public static final int GradientColor_android_centerColor = 7;
+    public static final int GradientColor_android_centerX = 3;
+    public static final int GradientColor_android_centerY = 4;
+    public static final int GradientColor_android_endColor = 1;
+    public static final int GradientColor_android_endX = 10;
+    public static final int GradientColor_android_endY = 11;
+    public static final int GradientColor_android_gradientRadius = 5;
+    public static final int GradientColor_android_startColor = 0;
+    public static final int GradientColor_android_startX = 8;
+    public static final int GradientColor_android_startY = 9;
+    public static final int GradientColor_android_tileMode = 6;
+    public static final int GradientColor_android_type = 2;
+    public static final int[] ColorStateListItem = {R.attr.color, R.attr.alpha, com.cyberlink.p030U.R.attr.alpha};
+    public static final int[] CoordinatorLayout = {com.cyberlink.p030U.R.attr.keylines, com.cyberlink.p030U.R.attr.statusBarBackground};
+    public static final int[] CoordinatorLayout_Layout = {R.attr.layout_gravity, com.cyberlink.p030U.R.attr.layout_anchor, com.cyberlink.p030U.R.attr.layout_anchorGravity, com.cyberlink.p030U.R.attr.layout_behavior, com.cyberlink.p030U.R.attr.layout_dodgeInsetEdges, com.cyberlink.p030U.R.attr.layout_insetEdge, com.cyberlink.p030U.R.attr.layout_keyline};
+    public static final int[] DragSortListView = {com.cyberlink.p030U.R.attr.click_remove_id, com.cyberlink.p030U.R.attr.collapsed_height, com.cyberlink.p030U.R.attr.drag_enabled, com.cyberlink.p030U.R.attr.drag_handle_id, com.cyberlink.p030U.R.attr.drag_scroll_start, com.cyberlink.p030U.R.attr.drag_start_mode, com.cyberlink.p030U.R.attr.drop_animation_duration, com.cyberlink.p030U.R.attr.fling_handle_id, com.cyberlink.p030U.R.attr.float_alpha, com.cyberlink.p030U.R.attr.float_background_color, com.cyberlink.p030U.R.attr.max_drag_scroll_speed, com.cyberlink.p030U.R.attr.remove_animation_duration, com.cyberlink.p030U.R.attr.remove_enabled, com.cyberlink.p030U.R.attr.remove_mode, com.cyberlink.p030U.R.attr.slide_shuffle_speed, com.cyberlink.p030U.R.attr.sort_enabled, com.cyberlink.p030U.R.attr.track_drag_sort, com.cyberlink.p030U.R.attr.use_default_controller};
+    public static final int[] FontFamily = {com.cyberlink.p030U.R.attr.fontProviderAuthority, com.cyberlink.p030U.R.attr.fontProviderCerts, com.cyberlink.p030U.R.attr.fontProviderFetchStrategy, com.cyberlink.p030U.R.attr.fontProviderFetchTimeout, com.cyberlink.p030U.R.attr.fontProviderPackage, com.cyberlink.p030U.R.attr.fontProviderQuery};
+    public static final int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, com.cyberlink.p030U.R.attr.font, com.cyberlink.p030U.R.attr.fontStyle, com.cyberlink.p030U.R.attr.fontVariationSettings, com.cyberlink.p030U.R.attr.fontWeight, com.cyberlink.p030U.R.attr.ttcIndex};
+    public static final int[] GradientColor = {R.attr.startColor, R.attr.endColor, R.attr.type, R.attr.centerX, R.attr.centerY, R.attr.gradientRadius, R.attr.tileMode, R.attr.centerColor, R.attr.startX, R.attr.startY, R.attr.endX, R.attr.endY};
+    public static final int[] GradientColorItem = {R.attr.color, R.attr.offset};
+}

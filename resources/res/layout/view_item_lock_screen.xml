@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <ImageView
+        android:id="@+id/lockMessageAvatar"
+        style="@style/ChatGroupItemAvatar"/>
+    <LinearLayout
+        android:id="@+id/chatGroupRightLayout"
+        style="@style/ChatGroupItemRightLayout">
+        <TextView
+            android:id="@+id/lockMessageTimeView"
+            style="@style/ChatGroupItemTime"/>
+        <RelativeLayout
+            android:id="@+id/UnreadLayout"
+            style="@style/ChatGroupItemUnreadLayout">
+            <TextView
+                android:id="@+id/LastMessageUnreadCountView"
+                style="@style/ChatGroupItemUnreadCount"/>
+            <TextView
+                android:id="@+id/LastMessageBulletinUnreadCountView"
+                style="@style/ChatGroupItemBulletinQuiet"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_toLeftOf="@+id/chatGroupRightLayout"
+        android:layout_toRightOf="@+id/lockMessageAvatar"
+        style="@style/ChatGroupItemMiddleLayout">
+        <LinearLayout
+            android:id="@+id/ChatDialogTopBarTitleArea"
+            style="@style/ChatGroupItemTopLayout">
+            <com.rockerhieu.emojicon.EmojiconTextView
+                android:textColor="@color/you_color_normal_gray"
+                android:id="@+id/lockMessageTitle"
+                style="@style/ChatGroupItemName"/>
+        </LinearLayout>
+        <com.rockerhieu.emojicon.EmojiconTextView
+            android:textColor="@color/white"
+            android:id="@+id/lockMessageLastMessage"
+            android:layout_below="@+id/ChatDialogTopBarTitleArea"
+            style="@style/ChatGroupItemLastMessage"/>
+    </RelativeLayout>
+</RelativeLayout>

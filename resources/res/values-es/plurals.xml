@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="D_days">
+        <item quantity="one">1 día</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="D_days_ago">
+        <item quantity="one">Hace 1 día</item>
+        <item quantity="other">Hace %1$d días</item>
+    </plurals>
+    <plurals name="bc_datepattern_long_ago_day">
+        <item quantity="zero">hace %1$d días</item>
+        <item quantity="one">hace 1 día</item>
+        <item quantity="other">hace %1$d días</item>
+    </plurals>
+    <plurals name="bc_datepattern_long_ago_hour">
+        <item quantity="zero">hace %1$d horas</item>
+        <item quantity="one">hace 1 hora</item>
+        <item quantity="other">hace %1$d horas</item>
+    </plurals>
+    <plurals name="bc_datepattern_long_ago_minute">
+        <item quantity="zero">hace %1$d minutos</item>
+        <item quantity="one">hace 1 minuto</item>
+        <item quantity="other">hace %1$d minutos</item>
+    </plurals>
+    <plurals name="chatlist_user_delete_photo">
+        <item quantity="one">%1$s ha eliminado %2$d foto del álbum.</item>
+        <item quantity="other">%1$s ha eliminado %2$d fotos del álbum.</item>
+    </plurals>
+    <plurals name="chatlist_user_share_photo">
+        <item quantity="one">%1$s ha añadido %2$s foto al álbum.</item>
+        <item quantity="other">%1$s ha añadido %2$s fotos al álbum.</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_file">
+        <item quantity="one">Ha eliminado %1$d archivo.</item>
+        <item quantity="other">Ha eliminado %1$d archivos.</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_photo">
+        <item quantity="one">Ha eliminado %1$d foto del álbum.</item>
+        <item quantity="other">Ha eliminado %1$d fotos del álbum.</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_video">
+        <item quantity="one">Ha eliminado %1$d vídeo.</item>
+        <item quantity="other">Ha eliminado %1$d vídeos.</item>
+    </plurals>
+    <plurals name="chatlist_you_share_photo">
+        <item quantity="one">Ha añadido %1$d foto al álbum.</item>
+        <item quantity="other">Ha añadido %1$d fotos al álbum.</item>
+    </plurals>
+    <plurals name="download_file_success">
+        <item quantity="one">%d archivo guardado correctamente.</item>
+        <item quantity="other">%d archivos guardados correctamente.</item>
+    </plurals>
+    <plurals name="download_photo_success">
+        <item quantity="one">La foto %d se ha guardado correctamente.</item>
+        <item quantity="other">Las fotos %d se han guardado correctamente.</item>
+    </plurals>
+    <plurals name="download_video_success">
+        <item quantity="one">El vídeo %d se han guardado correctamente.</item>
+        <item quantity="other">Los vídeos %d se han guardado correctamente.</item>
+    </plurals>
+    <plurals name="event_group_files_delete">
+        <item quantity="one">%1$s ha eliminado %2$s archivo.</item>
+        <item quantity="other">%1$s ha eliminado %2$s archivos.</item>
+    </plurals>
+    <plurals name="event_group_photos_delete">
+        <item quantity="one">%1$s ha eliminado %2$s foto del álbum %3$s.</item>
+        <item quantity="other">%1$s ha eliminado %2$s fotos del álbum %3$s.</item>
+    </plurals>
+    <plurals name="event_group_videos_delete">
+        <item quantity="one">%1$s ha eliminado %2$s vídeo.</item>
+        <item quantity="other">%1$s ha eliminado %2$s vídeos.</item>
+    </plurals>
+    <plurals name="file_selected">
+        <item quantity="zero">%1$d archivos seleccionados</item>
+        <item quantity="one">%1$d archivo seleccionado</item>
+        <item quantity="other">%1$d archivos seleccionados</item>
+    </plurals>
+    <plurals name="file_type_not_supported">
+        <item quantity="one">El formato del archivo seleccionado no es compatible.</item>
+        <item quantity="other">El formato de algunos de los archivos seleccionados no es compatible.</item>
+    </plurals>
+    <plurals name="notification_chat_user_share_photos">
+        <item quantity="one">%1$s ha añadida %2$s foto al álbum %3$s.</item>
+        <item quantity="other">%1$s ha añadido %2$s fotos al álbum %3$s.</item>
+    </plurals>
+    <plurals name="photo_selected">
+        <item quantity="zero">%1$d fotos seleccionadas</item>
+        <item quantity="one">%1$d foto seleccionada</item>
+        <item quantity="other">%1$d fotos seleccionadas</item>
+    </plurals>
+    <plurals name="record_selected">
+        <item quantity="zero">%1$d registros seleccionados</item>
+        <item quantity="one">%1$d registro seleccionado</item>
+        <item quantity="other">%1$d registros seleccionados</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_d">
+        <item quantity="zero">Una vez leído, este mensaje se autodestruirá en %1$d días</item>
+        <item quantity="one">Una vez leído, este mensaje se autodestruirá en %1$d día</item>
+        <item quantity="other">Una vez leído, este mensaje se autodestruirá en %1$d días</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_h">
+        <item quantity="zero">Una vez leído, este mensaje se autodestruirá en %1$d horas</item>
+        <item quantity="one">Una vez leído, este mensaje se autodestruirá en %1$d horas</item>
+        <item quantity="other">Una vez leído, este mensaje se autodestruirá en %1$d horas</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_m">
+        <item quantity="zero">Una vez leído, este mensaje se autodestruirá en %1$d minutos</item>
+        <item quantity="one">Una vez leído, este mensaje se autodestruirá en %1$d minutos</item>
+        <item quantity="other">Una vez leído, este mensaje se autodestruirá en %1$d minutos</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_s">
+        <item quantity="zero">Una vez leído, este mensaje se autodestruirá en %1$d segundos</item>
+        <item quantity="one">Una vez leído, este mensaje se autodestruirá en %1$d segundos</item>
+        <item quantity="other">Una vez leído, este mensaje se autodestruirá en %1$d segundos</item>
+    </plurals>
+    <plurals name="self_destruct_days">
+        <item quantity="zero">%1$d días</item>
+        <item quantity="one">%1$d días</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="self_destruct_hours">
+        <item quantity="zero">%1$d horas</item>
+        <item quantity="one">%1$d horas</item>
+        <item quantity="other">%1$d horas</item>
+    </plurals>
+    <plurals name="self_destruct_minutes">
+        <item quantity="zero">%1$d minutos</item>
+        <item quantity="one">%1$d minutos</item>
+        <item quantity="other">%1$d minutos</item>
+    </plurals>
+    <plurals name="self_destruct_seconds">
+        <item quantity="zero">%1$d segundos</item>
+        <item quantity="one">%1$d segundos</item>
+        <item quantity="other">%1$d segundos</item>
+    </plurals>
+    <plurals name="video_selected">
+        <item quantity="zero">%1$d vídeos seleccionados</item>
+        <item quantity="one">%1$d vídeo seleccionado</item>
+        <item quantity="other">%1$d vídeos seleccionados</item>
+    </plurals>
+</resources>

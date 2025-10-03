@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{4fffa0ae-d361-4d28-ae8e-bd23c67eb683}</guid>
+  <name>
+    <def>Teatime</def>
+    <chs>
+    下午茶
+    </chs>
+    <cht>
+    下午茶
+    </cht>
+    <deu>
+    Teezeit
+    </deu>
+    <enu>
+    Teatime
+    </enu>
+    <esp>
+    Hora del té
+    </esp>
+    <fra>
+    Heure du thé
+    </fra>
+    <ita>
+    Ora del tea
+    </ita>
+    <jpn>
+    ティータイム
+    </jpn>
+    <kor>
+    티타임
+    </kor>
+    <nld>
+    Theetijd
+    </nld>
+    <rus>
+    Чаепитие
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>false</live>
+    <capture>true</capture>
+    <edit>false</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>ENABLE_SMOOTH</FilterType>
+        <EffectMode>FOOD_TEATIME</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/WebinarHistoryHeader"
+        style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/WebinarHistorBackBtn"
+            android:contentDescription="[AID]WebinarHistory_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/WebinarHistorTitleTextView"
+            android:text="@string/clmw_my_webinars_page_title"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+        <ImageView
+            android:id="@+id/more"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            style="@style/TitleBar_MoreButton"/>
+    </RelativeLayout>
+    <include layout="@layout/toolbar_for_selection"/>
+    <Button
+        android:id="@+id/delete"
+        style="@style/AppButtonStyleForSelectionDelete"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/WebinarRecyclerView"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/delete"
+        android:layout_below="@+id/WebinarHistoryHeader"
+        style="@style/grayDividerListView"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:id="@+id/noRecordsTextView"
+        android:padding="@dimen/t50dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clmw_my_webinars_page_no_data"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

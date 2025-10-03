@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/you_color_white"/>
+            <stroke
+                android:width="1.5dp"
+                android:color="@color/meeting_host_avatar_circle"/>
+            <padding
+                android:left="@dimen/meeting_host_avatar_padding_width"
+                android:top="@dimen/meeting_host_avatar_padding_width"
+                android:right="@dimen/meeting_host_avatar_padding_width"
+                android:bottom="@dimen/meeting_host_avatar_padding_width"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/you_color_normal_gray"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/you_color_white"/>
+            <padding
+                android:left="@dimen/meeting_host_avatar_padding_width"
+                android:top="@dimen/meeting_host_avatar_padding_width"
+                android:right="@dimen/meeting_host_avatar_padding_width"
+                android:bottom="@dimen/meeting_host_avatar_padding_width"/>
+        </shape>
+    </item>
+</selector>

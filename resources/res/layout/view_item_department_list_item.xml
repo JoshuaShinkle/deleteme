@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <View
+        android:id="@+id/DepartmentExpand"
+        android:layout_height="@dimen/t30dp"
+        style="@style/ChatGroupItemGoTo"/>
+    <TableLayout
+        android:gravity="center_vertical"
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/t30dp"
+        android:shrinkColumns="0"
+        android:layout_toLeftOf="@+id/DepartmentExpand">
+        <TableRow>
+            <TextView
+                android:ellipsize="end"
+                android:id="@+id/Department"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:maxLines="1"/>
+            <TextView
+                android:id="@+id/DepartmentCount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/t3dp"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

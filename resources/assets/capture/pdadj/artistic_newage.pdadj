@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{6e2ac627-4dcf-4301-bda8-133f0b8397ce}</guid>
+  <name>
+    <def>New age</def>
+    <chs>
+    新时代
+    </chs>
+    <cht>
+    新時代
+    </cht>
+    <deu>
+    New Age
+    </deu>
+    <enu>
+    New age
+    </enu>
+    <esp>
+    New age
+    </esp>
+    <fra>
+    New age
+    </fra>
+    <ita>
+    New age
+    </ita>
+    <jpn>
+    ニュー エイジ
+    </jpn>
+    <kor>
+    뉴에이지
+    </kor>
+    <nld>
+    New age
+    </nld>
+    <rus>
+    Нью-эйдж
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>false</live>
+    <capture>true</capture>
+    <edit>false</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>ENABLE_SMOOTH</FilterType>
+        <EffectMode>ARTISTIC_NEWAGE</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

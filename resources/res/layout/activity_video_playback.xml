@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>
+        <RelativeLayout style="@style/TitleBar2">
+            <ImageView
+                android:id="@+id/VideoPlaybackBackBtn"
+                android:contentDescription="[AID]Video_Playback_Back"
+                style="@style/TitleBar_BackButton2"/>
+            <TextView
+                android:id="@+id/txt_badge"
+                android:visibility="gone"
+                android:layout_toRightOf="@+id/VideoPlaybackBackBtn"
+                style="@style/TitleBar_Badge"/>
+            <ImageView
+                android:id="@+id/VideoPlaybackMoreBtn"
+                android:contentDescription="[AID]Video_Playback_More"
+                style="@style/TitleBar_MoreButton2"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleLarge"/>
+</RelativeLayout>

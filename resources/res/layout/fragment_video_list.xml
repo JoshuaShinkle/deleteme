@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/MyVideoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_above="@+id/menuOperation"
+        android:layout_alignParentTop="true">
+        <GridView
+            android:id="@+id/MyVideoListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/VideoListEmptyView"
+        android:background="@color/you_color_white"
+        android:visibility="visible"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/view_item_left_bottom_to_right_top_indicate_arrow"/>
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/you_color_empty_view_text"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/videos_description"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/menuOperation"
+        style="@style/AppButtonStyleForSelectionDelete"/>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/SelectPollVotersListHeader"
+        style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/SelectPollVotersListBackBtn"
+            android:contentDescription="[AID]SelectPollVotersList_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/PollVotersListTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="displayed title"
+            android:layout_toLeftOf="@+id/SelectPollVotersListPaddingView"
+            android:layout_toRightOf="@+id/SelectPollVotersListBackBtn"
+            style="@style/TitleBar_RightTitle"/>
+        <ImageView
+            android:id="@+id/SelectPollVotersListPaddingView"
+            android:layout_width="@dimen/t48dp"
+            android:layout_height="@dimen/t25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/PollVotersList"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/SelectPollVotersListHeader"/>
+    <ProgressBar
+        android:id="@+id/pollVotersListProgressbar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

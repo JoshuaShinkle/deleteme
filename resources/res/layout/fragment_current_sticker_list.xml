@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:U="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.mobeta.android.dslv.DragSortListView
+        android:id="@+id/list"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/header"
+        U:click_remove_id="@+id/imageRemoveLayout"
+        U:collapsed_height="1dp"
+        U:drag_enabled="true"
+        U:drag_handle_id="@+id/imageArrange"
+        U:drag_scroll_start="0.33"
+        U:drag_start_mode="onDown"
+        U:float_alpha="0.6"
+        U:float_background_color="#7d7d7d"
+        U:remove_enabled="true"
+        U:remove_mode="clickRemove"
+        U:slide_shuffle_speed="0.3"
+        style="@style/grayDividerListView"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <ImageView
+        android:id="@+id/InvitationViaSomeWayImage"
+        style="@style/ChatGroupItemAvatarSmall"/>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:visibility="visible"
+        style="@style/ChatGroupItemCheckBox"/>
+    <RelativeLayout
+        android:layout_toLeftOf="@+id/checkBox"
+        android:layout_toRightOf="@+id/InvitationViaSomeWayImage"
+        style="@style/ChatGroupItemMiddleLayout">
+        <TextView
+            android:id="@+id/InvitationViaSomeWayDisplayName"
+            style="@style/ChatGroupItemName"/>
+        <TextView
+            android:id="@+id/InvitationViaSomeWayData"
+            android:layout_below="@+id/InvitationViaSomeWayDisplayName"
+            style="@style/ChatGroupItemLastMessageOneLine"/>
+    </RelativeLayout>
+</RelativeLayout>

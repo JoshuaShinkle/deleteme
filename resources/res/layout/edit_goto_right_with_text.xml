@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_edittext_normal_gray_border"
+    android:layout_width="wrap_content"
+    android:layout_height="33dp">
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/you_color_normal_gray"
+        android:gravity="center"
+        android:id="@+id/EditGotoTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"/>
+    <View
+        android:id="@+id/EditGotoImageView"
+        android:layout_marginRight="1dp"
+        style="@style/ChatGroupItemGoTo"/>
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/you_color_normal_gray"
+        android:gravity="center"
+        android:id="@+id/EditGotoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_toLeftOf="@+id/EditGotoImageView"/>
+</RelativeLayout>

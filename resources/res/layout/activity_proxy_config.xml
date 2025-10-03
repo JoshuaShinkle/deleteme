@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/you_color_setting_item_spliter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/PrivacySettingHeader"
+        style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/PrivacySettingBackBtn"
+            android:contentDescription="[AID]Setting_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/PrivacySettingTopBarTitle"
+            android:text="Proxy Config"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+        <TextView
+            android:id="@+id/PrivacySettingTopBarSave"
+            android:layout_marginRight="@dimen/t10dp"
+            android:text="Save"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/t30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proxy IP :"/>
+            <EditText
+                android:textSize="@dimen/t25dp"
+                android:id="@+id/ProxyIPEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/t30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proxy Port :"/>
+            <EditText
+                android:textSize="@dimen/t25dp"
+                android:id="@+id/ProxyPortEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/t30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name :"/>
+            <EditText
+                android:textSize="@dimen/t25dp"
+                android:id="@+id/ProxyUserNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/t30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Password :"/>
+            <EditText
+                android:textSize="@dimen/t25dp"
+                android:id="@+id/ProxyUserPasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/ProxyDataReset"
+                android:padding="@dimen/t10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/t20dp"
+                android:layout_marginTop="@dimen/t45dp"
+                android:text="reset all data"
+                style="@style/AppButtonStyleGeneral"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/bc_color_transparent"/>
+    <stroke
+        android:width="2dp"
+        android:color="@color/bc_issue_write_post_photo_hint"
+        android:dashWidth="5dp"
+        android:dashGap="3dp"/>
+    <corners android:radius="10dp"/>
+</shape>

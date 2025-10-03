@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:id="@+id/rejectMessageCanNotTalk"
+        android:text="@string/cant_talk_right_now"
+        android:contentDescription="[AID]DialogAddFriends_toGroup"
+        style="@style/DialogSelectionItemCancelText"/>
+    <View
+        android:background="@color/you_color_normal_gray"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:id="@+id/rejectMessageInMeeting"
+        android:text="@string/i_am_in_a_meeting"
+        android:contentDescription="[AID]DialogInvite_More"
+        style="@style/DialogSelectionItemCancelText"/>
+    <View style="@style/DialogSelectionItemSpliteLine"/>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:id="@+id/rejectMessageCallLater"
+        android:text="@string/i_will_call_you_later"
+        android:contentDescription="[AID]DialogInvite_More"
+        style="@style/DialogSelectionItemCancelText"/>
+    <View style="@style/DialogSelectionItemSpliteLine"/>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:id="@+id/rejectMessageUrgent"
+        android:text="@string/urgent_calls_only"
+        android:contentDescription="[AID]DialogInvite_More"
+        style="@style/DialogSelectionItemCancelText"/>
+    <View style="@style/DialogSelectionItemSpliteLine"/>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:id="@+id/rejectMessageCancel"
+        android:contentDescription="[AID]DialogShare_Cancel"
+        style="@style/DialogSelectionItemCancelText"/>
+</LinearLayout>

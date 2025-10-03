@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/you_color_light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:contentDescription="[AID]PasswordLock_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/title"
+            android:text="@string/setting_privacy_devices"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:textColor="@color/you_color_normal_gray_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/t10dp"
+        android:layout_marginRight="@dimen/t10dp"
+        android:text="@string/setting_privacy_devices"/>
+    <ListView
+        android:id="@+id/devicesListView"
+        android:background="@color/you_color_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:textColor="@color/you_color_normal_gray_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/t10dp"
+        android:layout_marginRight="@dimen/t10dp"
+        android:text="@string/setting_privacy_devices_sign_out_reminder"/>
+</LinearLayout>

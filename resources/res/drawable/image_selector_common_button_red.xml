@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/you_color_delete_red_pressed"/>
+            <stroke
+                android:width="1px"
+                android:color="@color/you_color_delete_red_pressed"/>
+            <corners android:radius="7dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/you_color_delete_red_15_percentage"/>
+            <stroke
+                android:width="1px"
+                android:color="@color/you_color_delete_red_15_percentage"/>
+            <corners android:radius="7dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/you_color_delete_red"/>
+            <stroke
+                android:width="1px"
+                android:color="@color/you_color_delete_red"/>
+            <corners android:radius="7dp"/>
+        </shape>
+    </item>
+</selector>

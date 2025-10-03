@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/you_color_divider_gray"
+    android:paddingLeft="@dimen/t10dp"
+    android:paddingRight="@dimen/t10dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/t40dp">
+    <ImageView
+        android:id="@+id/FriendsTitleExpand"
+        android:tag="FriendsTitleExpand"
+        android:layout_width="@dimen/t21dp"
+        android:layout_height="@dimen/t28dp"
+        android:src="@drawable/icon_expand_up"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="@dimen/t18sp"
+        android:textColor="@color/you_color_normal_gray_text"
+        android:id="@+id/FriendsTitleDisplayName"
+        android:tag="FriendsTitleDisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/t5dp"
+        android:lines="1"
+        android:includeFontPadding="false"
+        android:layout_toLeftOf="@+id/FriendsTitleExpand"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

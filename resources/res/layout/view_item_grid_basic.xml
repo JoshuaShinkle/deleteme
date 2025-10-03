@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cyberlink.you.groupalbum.SquareImageView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/doc_thumbnail_default"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/selectBtn"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/image_selector_photo_thumnail_select_btn"
+        android:layout_alignTop="@+id/photoView"
+        android:layout_alignRight="@+id/photoView"/>
+</merge>

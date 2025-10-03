@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="7dp"/>
+            <solid android:color="@color/you_color_normal_blue"/>
+        </shape>
+    </item>
+    <item>
+        <color android:color="@color/bg_bottom_tool_bar_button_default"/>
+    </item>
+</selector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ChatMessageContentPhotoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ViewItemSendSticker"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/video_btn_play_n"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_alignLeft="@+id/ChatMessageContentPhotoView"
+        android:layout_alignRight="@+id/ChatMessageContentPhotoView"
+        android:layout_alignBottom="@+id/ChatMessageContentPhotoView"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/delete"
+        android:layout_width="29.33dp"
+        android:layout_height="29.33dp"
+        android:src="@drawable/btn_delete"
+        android:layout_alignRight="@+id/ChatMessageContentPhotoView"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/item_invite_by_email"
+        android:text="@string/clm_invite_by_email"
+        android:contentDescription="[AID]Meeting_invite_more_by_email"
+        style="@style/DialogSelectionItemText"/>
+    <View
+        android:background="@color/you_color_normal_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+        android:id="@+id/item_copy_invitation"
+        android:text="@string/clm_meeting_invite_copy_invitation"
+        android:contentDescription="[AID]Meeting_invite_copy_invitation"
+        style="@style/DialogSelectionItemText"/>
+    <View
+        android:background="@color/you_color_normal_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+        android:id="@+id/item_copy_url"
+        android:text="@string/clm_meeting_invite_copy_url"
+        android:contentDescription="[AID]Meeting_invite_copy_url"
+        style="@style/DialogSelectionItemText"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{2daa24c1-e5f1-40e6-8537-f2825b5323f3}</guid>
+  <name>
+    <def>Dusk</def>
+    <chs>
+    日落
+    </chs>
+    <cht>
+    午後
+    </cht>
+    <deu>
+    Abendrot
+    </deu>
+    <enu>
+    Dusk
+    </enu>
+    <esp>
+    Puesta de sol
+    </esp>
+    <fra>
+    Lever de soleil
+    </fra>
+    <ita>
+    Tramonto
+    </ita>
+    <jpn>
+    サンセット
+    </jpn>
+    <kor>
+    일몰
+    </kor>
+    <nld>
+    Zonsondergang
+    </nld>
+    <rus>
+    Закат
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>false</live>
+    <capture>true</capture>
+    <edit>false</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>ENABLE_SMOOTH</FilterType>
+        <EffectMode>SCENERY_DUSK</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

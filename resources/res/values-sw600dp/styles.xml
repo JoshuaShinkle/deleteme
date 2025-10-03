@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomToolBarMenuBtnImageStyle" parent="">
+        <item name="android:layout_gravity">0x11</item>
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:scaleType">6</item>
+    </style>
+    <style name="BottomToolBarMenuBtnTextStyle" parent="">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@drawable/color_bottom_tool_btn_text</item>
+        <item name="android:ellipsize">3</item>
+        <item name="android:layout_gravity">0x11</item>
+        <item name="android:paddingLeft">13dp</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BottomToolButtonStyle" parent="">
+        <item name="android:textColor">@drawable/color_selector_bottombar_btn_text</item>
+        <item name="android:ellipsize">3</item>
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">-1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="imageHeight">61dp</item>
+        <item name="imageWidth">61dp</item>
+        <item name="paddingTop">0dp</item>
+        <item name="titleSize">16dp</item>
+        <item name="verticalSpacing">0dp</item>
+    </style>
+    <style name="CameraDetectHintTextStyle" parent="@style/CameraDetectHintTextBaseStyle">
+        <item name="android:textSize">27dp</item>
+    </style>
+    <style name="CameraNavigatorButtonTextStyle" parent="@style/CameraNavigatorButtonTextBasicStyle">
+        <item name="android:textSize">26dp</item>
+    </style>
+    <style name="CameraNavigatorSavedToTextStyle" parent="@style/CameraNavigatorTipTextBasicStyle">
+        <item name="android:textSize">24dp</item>
+    </style>
+    <style name="CameraNavigatorTipTextStyle" parent="@style/CameraNavigatorTipTextBasicStyle">
+        <item name="android:textSize">31dp</item>
+    </style>
+    <style name="CameraSettingTextStyle" parent="@style/CameraSettingTextBasicStyle">
+        <item name="android:textSize">21dp</item>
+    </style>
+    <style name="CollageBottomBarButtonText" parent="">
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="EditViewCompareButton" parent="">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">17dp</item>
+    </style>
+    <style name="EditViewInfoButton" parent="">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">17dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="EditViewRedoButton" parent="">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">17dp</item>
+    </style>
+    <style name="EditViewResetButton" parent="">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">175dp</item>
+    </style>
+    <style name="EditViewSwitchFaceButton" parent="@style/EditViewInfoButton">
+        <item name="android:layout_marginTop">111dp</item>
+    </style>
+    <style name="EditViewUndoButton" parent="">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">96dp</item>
+    </style>
+    <style name="EditViewViewerStyle" parent="">
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_marginBottom">95dp</item>
+    </style>
+    <style name="FaceSwitcherMessageText" parent="">
+        <item name="android:textSize">22dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">200dp</item>
+    </style>
+    <style name="GroupProfileUserAvatar" parent="">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+    <style name="IntroBeforeAfterTextStyle" parent="@style/IntroTextStyle">
+        <item name="android:textSize">26dp</item>
+    </style>
+    <style name="IntroTipTextStyle" parent="@style/IntroTipTextBaseStyle">
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="IntroTitleTextStyle" parent="@style/IntroTitleTextBaseStyle">
+        <item name="android:textSize">32dp</item>
+    </style>
+    <style name="IntroTitleTipTextStyle" parent="@style/IntroTextStyle">
+        <item name="android:textSize">22dp</item>
+    </style>
+    <style name="LauncherButtonTextStyle" parent="@style/LauncherButtonTextBasicStyle">
+        <item name="android:textSize">32dp</item>
+    </style>
+    <style name="MessageDialogIcon" parent="">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginRight">9dp</item>
+    </style>
+    <style name="MessageDialogText" parent="">
+        <item name="android:textSize">16dp</item>
+        <item name="android:inputType">0x0</item>
+    </style>
+    <style name="PresetViewEditModeText" parent="">
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="PresetViewIntoSelectLayout" parent="">
+        <item name="android:layout_height">308dp</item>
+    </style>
+    <style name="PresetViewIntroBottomPanelArrow" parent="">
+        <item name="android:layout_width">44.5dp</item>
+        <item name="android:layout_height">127.5dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanel" parent="">
+        <item name="android:layout_width">53dp</item>
+        <item name="android:layout_height">308dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanelArrow" parent="">
+        <item name="android:layout_width">82dp</item>
+        <item name="android:layout_height">75dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanelText" parent="">
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanelZoomText" parent="">
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="PresetViewSmartFocusMenuBtn" parent="">
+        <item name="android:layout_width">33dp</item>
+        <item name="android:layout_height">48.5dp</item>
+    </style>
+    <style name="PresetViewSmartFocusMenuBtnPadding" parent="">
+        <item name="android:paddingRight">40dp</item>
+    </style>
+    <style name="PresetViewSmartFocusSelectPanel" parent="">
+        <item name="android:layout_width">73dp</item>
+        <item name="android:layout_height">356.5dp</item>
+    </style>
+    <style name="RateUsSavedToTextStyle" parent="@style/RateUsSavedToBasicStyle">
+        <item name="android:textSize">23dp</item>
+    </style>
+    <style name="RateUsTitleTextStyle" parent="@style/RateUsTextBasicStyle">
+        <item name="android:textSize">32dp</item>
+    </style>
+    <style name="RedEyePanelText" parent="">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:inputType">0x0</item>
+    </style>
+    <style name="RemovalPanelText" parent="">
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="SliderTest" parent="">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:inputType">0x0</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="beautifier_text_style" parent="">
+        <item name="android:textSize">22dp</item>
+    </style>
+</resources>

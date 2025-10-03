@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/LogBrowserHeader"
+        style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/LogBrowserBackBtn"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/LogBrowserTopBarTitle"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+        <ImageView
+            android:id="@+id/LogDeleteBtn"
+            android:padding="@dimen/t8dp"
+            android:layout_width="@dimen/t43dp"
+            android:layout_height="@dimen/t43dp"
+            android:src="@drawable/icon_option_delete"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/LogBrowserFileListView"
+        android:layout_below="@+id/LogBrowserHeader"
+        android:layout_alignParentBottom="true"
+        style="@style/grayDividerListView"/>
+</RelativeLayout>

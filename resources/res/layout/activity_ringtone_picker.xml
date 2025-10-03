@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/RingtoneHeader"
+        style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/RingtoneBackBtn"
+            android:contentDescription="[AID]Ringtone_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/RingtoneTopBarTitle"
+            android:text="@string/select_a_ringtone"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/RingtoneList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RingtoneHeader"/>
+</RelativeLayout>

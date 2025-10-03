@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ringtoneCheckBox"
+        android:visibility="invisible"
+        android:layout_width="@dimen/t25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/t20dp"
+        android:src="@drawable/btns_v_p"
+        android:layout_alignTop="@+id/ringtoneName"
+        android:layout_alignBottom="@+id/ringtoneName"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:textSize="@dimen/t20dp"
+        android:gravity="center_vertical"
+        android:id="@+id/ringtoneName"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/t50dp"
+        android:layout_marginLeft="@dimen/t20dp"
+        android:layout_toRightOf="@+id/ringtoneCheckBox"/>
+</RelativeLayout>

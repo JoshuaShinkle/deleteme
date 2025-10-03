@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:background="@drawable/bg_edittext_normal_gray_border"
+    android:layout_width="wrap_content"
+    android:layout_height="33dp">
+    <ImageView
+        android:id="@+id/EditCheckImageView"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="1dp"
+        android:src="@drawable/image_selector_edit_button"
+        android:layout_alignParentRight="true"
+        android:contentDescription="[AID]CheckButton"/>
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/you_color_normal_gray"
+        android:gravity="center"
+        android:id="@+id/EditCheckTextView"
+        android:background="@null"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/EditCheckImageView"
+        android:textCursorDrawable="@null"/>
+</RelativeLayout>

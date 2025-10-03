@@ -1,0 +1,87 @@
+package com.google.common.collect;
+
+import com.google.common.annotations.GwtIncompatible;
+import com.google.common.base.Preconditions;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.primitives.Primitives;
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+import java.io.Serializable;
+import java.util.Map;
+
+@GwtIncompatible
+/* loaded from: classes2.dex */
+public final class ImmutableClassToInstanceMap<B> extends ForwardingMap<Class<? extends B>, B> implements ClassToInstanceMap<B>, Serializable {
+    private static final ImmutableClassToInstanceMap<Object> EMPTY = new ImmutableClassToInstanceMap<>(ImmutableMap.m17592of());
+    private final ImmutableMap<Class<? extends B>, B> delegate;
+
+    public static final class Builder<B> {
+        private final ImmutableMap.Builder<Class<? extends B>, B> mapBuilder = ImmutableMap.builder();
+
+        private static <B, T extends B> T cast(Class<T> cls, B b9) {
+            return (T) Primitives.wrap(cls).cast(b9);
+        }
+
+        public ImmutableClassToInstanceMap<B> build() {
+            ImmutableMap<Class<? extends B>, B> immutableMapBuild = this.mapBuilder.build();
+            return immutableMapBuild.isEmpty() ? ImmutableClassToInstanceMap.m17571of() : new ImmutableClassToInstanceMap<>(immutableMapBuild);
+        }
+
+        @CanIgnoreReturnValue
+        public <T extends B> Builder<B> put(Class<T> cls, T t8) {
+            this.mapBuilder.put(cls, t8);
+            return this;
+        }
+
+        @CanIgnoreReturnValue
+        public <T extends B> Builder<B> putAll(Map<? extends Class<? extends T>, ? extends T> map) {
+            for (Map.Entry<? extends Class<? extends T>, ? extends T> entry : map.entrySet()) {
+                Class<? extends T> key = entry.getKey();
+                this.mapBuilder.put(key, cast(key, entry.getValue()));
+            }
+            return this;
+        }
+    }
+
+    public static <B> Builder<B> builder() {
+        return new Builder<>();
+    }
+
+    public static <B, S extends B> ImmutableClassToInstanceMap<B> copyOf(Map<? extends Class<? extends S>, ? extends S> map) {
+        return map instanceof ImmutableClassToInstanceMap ? (ImmutableClassToInstanceMap) map : new Builder().putAll(map).build();
+    }
+
+    /* renamed from: of */
+    public static <B> ImmutableClassToInstanceMap<B> m17571of() {
+        return (ImmutableClassToInstanceMap<B>) EMPTY;
+    }
+
+    @Override // com.google.common.collect.ClassToInstanceMap
+    public <T extends B> T getInstance(Class<T> cls) {
+        return this.delegate.get(Preconditions.checkNotNull(cls));
+    }
+
+    @Override // com.google.common.collect.ClassToInstanceMap
+    @CanIgnoreReturnValue
+    @Deprecated
+    public <T extends B> T putInstance(Class<T> cls, T t8) {
+        throw new UnsupportedOperationException();
+    }
+
+    public Object readResolve() {
+        return isEmpty() ? m17571of() : this;
+    }
+
+    private ImmutableClassToInstanceMap(ImmutableMap<Class<? extends B>, B> immutableMap) {
+        this.delegate = immutableMap;
+    }
+
+    /* renamed from: of */
+    public static <B, T extends B> ImmutableClassToInstanceMap<B> m17572of(Class<T> cls, T t8) {
+        return new ImmutableClassToInstanceMap<>(ImmutableMap.m17593of(cls, t8));
+    }
+
+    @Override // com.google.common.collect.ForwardingMap, com.google.common.collect.ForwardingObject
+    public Map<Class<? extends B>, B> delegate() {
+        return this.delegate;
+    }
+}

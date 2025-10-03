@@ -1,0 +1,29 @@
+﻿{
+results: [
+{
+lastModified: 1500951718,
+packType: "AnimationPNG",
+purchaseType: "Free",
+publisher: {
+lastModified: 1428486324,
+userId: null,
+defaultName: "CyberLink",
+titleOfUrl: "",
+name: "訊連科技",
+url: ""
+},
+packName: "上班族日常",
+description: null,
+expiration: null,
+iapItem: null,
+url: {
+zip: "http://d21wxpz0rcyext.cloudfront.net/pack/366/366/zip",
+cover: "http://d21wxpz0rcyext.cloudfront.net/pack/366/366/cover",
+thumbnail: "http://d21wxpz0rcyext.cloudfront.net/pack/366/366/thumbnail",
+preview: "http://d21wxpz0rcyext.cloudfront.net/pack/366/366/preview"
+},
+packId: 366,
+publishedDate: 1500951717
+}
+]
+}

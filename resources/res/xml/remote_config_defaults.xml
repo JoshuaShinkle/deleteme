@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>RDTestKey
+        </key>
+        <value>RDTestValue
+        </value>
+    </entry>
+    <entry>
+        <key>subscription_id_other_android
+        </key>
+        <value>monthly_sub_usd4.99_5.99_yfree_201908,yearly_sub_usd34.99_39.99_yfree_201908
+        </value>
+    </entry>
+    <entry>
+        <key>subscription_id_sea_android
+        </key>
+        <value>monthly_sub_usd4.99_mfree_201908,yearly_sub_usd34.99_mfree_201908
+        </value>
+    </entry>
+    <entry>
+        <key>subscription_id_sea_country
+        </key>
+        <value>PH,IN
+        </value>
+    </entry>
+</defaultsMap>

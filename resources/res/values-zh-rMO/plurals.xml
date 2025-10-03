@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="D_days">
+        <item quantity="one">1 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="D_days_ago">
+        <item quantity="one">1 天前</item>
+        <item quantity="other">%1$d 天前</item>
+    </plurals>
+    <plurals name="chatlist_user_delete_photo">
+        <item quantity="one">%1$s 已從相簿中刪除 %2$d 張相片。</item>
+        <item quantity="other">%1$s 已從相簿中刪除 %2$d 張相片。</item>
+    </plurals>
+    <plurals name="chatlist_user_share_photo">
+        <item quantity="one">%1$s 在相簿中加入 %2$s 張相片。</item>
+        <item quantity="other">%1$s 在相簿中加入 %2$s 張相片。</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_file">
+        <item quantity="one">你刪除了 %1$d 個檔案。</item>
+        <item quantity="other">你刪除了 %1$d 個檔案。</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_photo">
+        <item quantity="one">你已從相簿中刪除 %1$d 張相片。</item>
+        <item quantity="other">你已從相簿中刪除 %1$d 張相片。</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_video">
+        <item quantity="one">你刪除了 %1$d 個影片。</item>
+        <item quantity="other">你刪除了 %1$d 個影片。</item>
+    </plurals>
+    <plurals name="chatlist_you_share_photo">
+        <item quantity="one">你在相簿中加入 %1$d 張相片。</item>
+        <item quantity="other">你在相簿中加入 %1$d 張相片。</item>
+    </plurals>
+    <plurals name="download_file_success">
+        <item quantity="one">已成功儲存 %d 個檔案。</item>
+        <item quantity="other">已成功儲存 %d 個檔案。</item>
+    </plurals>
+    <plurals name="download_photo_success">
+        <item quantity="one">已成功儲存 %d 張相片。</item>
+        <item quantity="other">已成功儲存 %d 張相片。</item>
+    </plurals>
+    <plurals name="download_video_success">
+        <item quantity="one">已成功儲存 %d 個影片。</item>
+        <item quantity="other">已成功儲存 %d 個影片。</item>
+    </plurals>
+    <plurals name="event_group_files_delete">
+        <item quantity="one">%1$s 刪除了 %2$s 個檔案。</item>
+        <item quantity="other">%1$s 刪除了 %2$s 個檔案。</item>
+    </plurals>
+    <plurals name="event_group_photos_delete">
+        <item quantity="one">%1$s 已從相簿「%3$s」中刪除 %2$s 張相片。</item>
+        <item quantity="other">%1$s 已從相簿「%3$s」中刪除 %2$s 張相片。</item>
+    </plurals>
+    <plurals name="event_group_videos_delete">
+        <item quantity="one">%1$s 刪除了 %2$s 個影片。</item>
+        <item quantity="other">%1$s 刪除了 %2$s 個影片。</item>
+    </plurals>
+    <plurals name="file_selected">
+        <item quantity="zero">已選取 %1$d 個檔案</item>
+        <item quantity="one">已選取 %1$d 個檔案</item>
+        <item quantity="other">已選取 %1$d 個檔案</item>
+    </plurals>
+    <plurals name="file_type_not_supported">
+        <item quantity="one">不支援選取的檔案格式。</item>
+        <item quantity="other">不支援某些選取的檔案格式。</item>
+    </plurals>
+    <plurals name="notification_chat_user_share_photos">
+        <item quantity="one">%1$s 在相簿 [%3$s] 中加入 %2$s 張相片。</item>
+        <item quantity="other">%1$s 在相簿 [%3$s] 中加入 %2$s 張相片。</item>
+    </plurals>
+    <plurals name="photo_selected">
+        <item quantity="zero">已選取 %1$d 張相片</item>
+        <item quantity="one">已選取 %1$d 張相片</item>
+        <item quantity="other">已選取 %1$d 張相片</item>
+    </plurals>
+    <plurals name="record_selected">
+        <item quantity="zero">已選取 %1$d 筆記錄</item>
+        <item quantity="one">已選取 %1$d 筆記錄</item>
+        <item quantity="other">已選取 %1$d 筆記錄</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_d">
+        <item quantity="zero">讀取後，此訊息將在 %1$d 天後自行刪除</item>
+        <item quantity="one">讀取後，此訊息將在 %1$d 天後自行刪除</item>
+        <item quantity="other">讀取後，此訊息將在 %1$d 天後自行刪除</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_h">
+        <item quantity="zero">讀取後，此訊息將在 %1$d 小時後自行刪除。</item>
+        <item quantity="one">讀取後，此訊息將在 %1$d 小時後自行刪除。</item>
+        <item quantity="other">讀取後，此訊息將在 %1$d 小時後自行刪除。</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_m">
+        <item quantity="zero">讀取後，此訊息將在 %1$d 分鐘後自行刪除。</item>
+        <item quantity="one">讀取後，此訊息將在 %1$d 分鐘後自行刪除。</item>
+        <item quantity="other">讀取後，此訊息將在 %1$d 分鐘後自行刪除。</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_s">
+        <item quantity="zero">讀取後，此訊息將在 %1$d 秒後自行刪除。</item>
+        <item quantity="one">讀取後，此訊息將在 %1$d 秒後自行刪除。</item>
+        <item quantity="other">讀取後，此訊息將在 %1$d 秒後自行刪除。</item>
+    </plurals>
+    <plurals name="self_destruct_days">
+        <item quantity="zero">%1$d 天</item>
+        <item quantity="one">%1$d 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="self_destruct_hours">
+        <item quantity="zero">%1$d 小時</item>
+        <item quantity="one">%1$d 小時</item>
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+    <plurals name="self_destruct_minutes">
+        <item quantity="zero">%1$d 分鐘</item>
+        <item quantity="one">%1$d 分鐘</item>
+        <item quantity="other">%1$d 分鐘</item>
+    </plurals>
+    <plurals name="self_destruct_seconds">
+        <item quantity="zero">%1$d 秒</item>
+        <item quantity="one">%1$d 秒</item>
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="video_selected">
+        <item quantity="zero">已選取 %1$d 個影片</item>
+        <item quantity="one">已選取 %1$d 個影片</item>
+        <item quantity="other">已選取 %1$d 個影片</item>
+    </plurals>
+</resources>

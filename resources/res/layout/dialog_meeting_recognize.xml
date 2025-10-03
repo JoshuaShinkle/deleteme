@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_mute_microphone"
+        android:text="@string/clm_meeting_mute_microphone"
+        style="@style/DialogSelectionItemText"/>
+    <TextView
+        android:id="@+id/item_unmute_microphone"
+        android:text="@string/clm_meeting_unmute_microphone"
+        style="@style/DialogSelectionItemText"/>
+    <View
+        android:background="@color/you_color_normal_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <TextView
+        android:id="@+id/item_turn_on_recognize"
+        android:text="@string/clm_meeting_turn_on_recognize"
+        style="@style/DialogSelectionItemText"/>
+    <TextView
+        android:id="@+id/item_turn_off_recognize"
+        android:text="@string/clm_meeting_turn_off_recognize"
+        style="@style/DialogSelectionItemText"/>
+</LinearLayout>

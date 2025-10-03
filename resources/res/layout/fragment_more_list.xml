@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="end|middle">
+        <RelativeLayout
+            android:id="@+id/moreAddContactsArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreAddContactsIcon"
+                android:src="@drawable/more_icon_add"
+                style="@style/LauncherItemIconStyle"/>
+            <ImageView
+                android:id="@+id/moreAddContactsNewIcon"
+                android:layout_alignRight="@+id/moreAddContactsIcon"
+                style="@style/LauncherItemNewIconStyle"/>
+            <TextView
+                android:text="@string/more_fragment_add_friends"
+                android:layout_toRightOf="@+id/moreAddContactsIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <include layout="@layout/view_item_list_more_divider"/>
+        <RelativeLayout
+            android:id="@+id/moreScanQRCodeArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreQrCodeIcon"
+                android:src="@drawable/more_icon_qr"
+                style="@style/LauncherItemIconStyle"/>
+            <TextView
+                android:id="@+id/startVoiceMeetingsTitle"
+                android:text="@string/more_fragment_scanQCode"
+                android:layout_toRightOf="@+id/moreQrCodeIcon"
+                style="@style/LauncherItemWithDescriptionTitleStyle"/>
+            <ImageView
+                android:id="@+id/moreQrCodeNext"
+                style="@style/LauncherItemIconStyle.Next"/>
+            <TextView
+                android:text="@string/more_fragment_scanQCode_description"
+                android:layout_toLeftOf="@+id/moreQrCodeNext"
+                android:layout_toRightOf="@+id/moreQrCodeIcon"
+                android:layout_below="@+id/startVoiceMeetingsTitle"
+                style="@style/LauncherMoreItemDescriptionStyle"/>
+        </RelativeLayout>
+        <View style="@style/LauncherDividerWide"/>
+        <RelativeLayout
+            android:id="@+id/moreUpgradeToProArea"
+            android:visibility="gone"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreUpgradeToProIcon"
+                android:src="@drawable/more_icon_upgrade"
+                style="@style/LauncherItemIconStyle"/>
+            <TextView
+                android:text="@string/more_fragment_upgrade"
+                android:layout_toRightOf="@+id/moreUpgradeToProIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView
+                android:id="@+id/moreUpgradeToProNext"
+                style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <View style="@style/LauncherDividerWide"/>
+        <RelativeLayout
+            android:id="@+id/moreContentArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreContentIcon"
+                android:src="@drawable/more_icon_content"
+                style="@style/LauncherItemIconStyle"/>
+            <TextView
+                android:id="@+id/startVideoMeetingsTitle"
+                android:text="@string/more_fragment_content"
+                android:layout_toRightOf="@+id/moreContentIcon"
+                style="@style/LauncherItemWithDescriptionTitleStyle"/>
+            <ImageView
+                android:id="@+id/moreContentsNext"
+                style="@style/LauncherItemIconStyle.Next"/>
+            <TextView
+                android:text="@string/more_fragment_content_description"
+                android:layout_toLeftOf="@+id/moreContentsNext"
+                android:layout_toRightOf="@+id/moreContentIcon"
+                android:layout_below="@+id/startVideoMeetingsTitle"
+                style="@style/LauncherMoreItemDescriptionStyle"/>
+        </RelativeLayout>
+        <View style="@style/LauncherDividerWide"/>
+        <RelativeLayout
+            android:id="@+id/moreProfileArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreAvatarIcon"
+                android:background="@drawable/bg_avatar"
+                android:padding="@dimen/avatar_border_width"
+                android:layout_width="@dimen/t36dp"
+                android:layout_height="@dimen/t36dp"
+                android:src="@drawable/pic_default"
+                style="@style/LauncherItemIconStyle"/>
+            <TextView
+                android:text="@string/more_fragment_my_profile"
+                android:layout_toRightOf="@+id/moreAvatarIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <include layout="@layout/view_item_list_more_divider"/>
+        <RelativeLayout
+            android:id="@+id/moreSettingArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreSettingIcon"
+                android:src="@drawable/more_icon_setting"
+                style="@style/LauncherItemIconStyle"/>
+            <ImageView
+                android:id="@+id/moreSettingNewIcon"
+                android:layout_alignRight="@+id/moreSettingIcon"
+                style="@style/LauncherItemNewIconStyle"/>
+            <TextView
+                android:text="@string/more_fragment_setting"
+                android:layout_toRightOf="@+id/moreSettingIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <View style="@style/LauncherDividerWide"/>
+        <RelativeLayout
+            android:id="@+id/moreStickerShopArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreStickerShopAreaIcon"
+                android:src="@drawable/more_icon_sticker"
+                style="@style/LauncherItemIconStyle"/>
+            <ImageView
+                android:id="@+id/moreStickerShopNewIcon"
+                android:layout_alignRight="@+id/moreStickerShopAreaIcon"
+                style="@style/LauncherItemNewIconStyle"/>
+            <TextView
+                android:text="@string/more_fragment_sticker_shop"
+                android:layout_toRightOf="@+id/moreStickerShopAreaIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <include layout="@layout/view_item_list_more_divider"/>
+        <RelativeLayout
+            android:id="@+id/moreNoticeArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreNoticeIcon"
+                android:src="@drawable/more_icon_notice"
+                style="@style/LauncherItemIconStyle"/>
+            <ImageView
+                android:id="@+id/moreNoticeNewIcon"
+                android:layout_alignRight="@+id/moreNoticeIcon"
+                style="@style/LauncherItemNewIconStyle"/>
+            <TextView
+                android:text="@string/more_fragment_notice"
+                android:layout_toRightOf="@+id/moreNoticeIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <include layout="@layout/view_item_list_more_divider"/>
+        <RelativeLayout
+            android:id="@+id/moreFAQArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreFAQIcon"
+                android:src="@drawable/more_icon_faq"
+                style="@style/LauncherItemIconStyle"/>
+            <TextView
+                android:text="@string/faq"
+                android:layout_toRightOf="@+id/moreFAQIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <include layout="@layout/view_item_list_more_divider"/>
+        <RelativeLayout
+            android:id="@+id/moreFeedbackArea"
+            style="@style/LauncherItemStyle">
+            <ImageView
+                android:id="@+id/moreFeedbackIcon"
+                android:src="@drawable/more_icon_report"
+                style="@style/LauncherItemIconStyle"/>
+            <TextView
+                android:text="@string/report_a_problem"
+                android:layout_toRightOf="@+id/moreFeedbackIcon"
+                style="@style/LauncherTitleWithoutDescriptionStyle"/>
+            <ImageView style="@style/LauncherItemIconStyle.Next"/>
+        </RelativeLayout>
+        <include layout="@layout/view_item_list_more_divider"/>
+    </LinearLayout>
+</ScrollView>

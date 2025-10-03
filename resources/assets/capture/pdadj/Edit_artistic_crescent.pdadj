@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{295ba849-fbcc-44fe-b8d6-dff43e65084a}</guid>
+  <name>
+    <def>Crescent</def>
+    <chs>
+    新月
+    </chs>
+    <cht>
+    新月
+    </cht>
+    <deu>
+    Halbmond
+    </deu>
+    <enu>
+    Crescent
+    </enu>
+    <esp>
+    Media luna
+    </esp>
+    <fra>
+    Croissant
+    </fra>
+    <ita>
+    Crescente
+    </ita>
+    <jpn>
+    クレスント
+    </jpn>
+    <kor>
+    크레센트
+    </kor>
+    <nld>
+    Sikkelvormig
+    </nld>
+    <rus>
+    Полумесяц
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>true</edit>
+  </mode>
+  <smart_focus_mode>(1, 1, 1)</smart_focus_mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>DISABLE_SMOOTH</FilterType>
+        <EffectMode>ARTISTIC_CRESCENT</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

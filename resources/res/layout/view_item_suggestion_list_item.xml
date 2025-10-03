@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <ImageView
+        android:id="@+id/FriendInvitationSuggestionDisplayImage"
+        style="@style/ChatGroupItemAvatarSmall"/>
+    <RelativeLayout
+        android:id="@+id/FriendInvitationSuggestionNewIconImg"
+        android:layout_width="15dp"
+        android:layout_height="15dp">
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/ic_new_icon_layout"/>
+    </RelativeLayout>
+    <com.cyberlink.widget.Button2
+        android:id="@+id/FriendInvitationSuggestionAddBtn"
+        android:background="@drawable/image_selector_add_friend_in_suggestion"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        style="@style/ChatGroupItemRightIcon"/>
+    <RelativeLayout
+        android:layout_toLeftOf="@+id/FriendInvitationSuggestionAddBtn"
+        android:layout_toRightOf="@+id/FriendInvitationSuggestionDisplayImage"
+        style="@style/ChatGroupItemMiddleLayout">
+        <TextView
+            android:id="@+id/FriendInvitationSuggestionDisplayName"
+            style="@style/ChatGroupItemName"/>
+        <TextView
+            android:id="@+id/FriendInvitationSuggestionSourceType"
+            android:layout_below="@+id/FriendInvitationSuggestionDisplayName"
+            style="@style/ChatGroupItemLastMessageOneLine"/>
+    </RelativeLayout>
+</RelativeLayout>

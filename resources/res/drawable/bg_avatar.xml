@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/you_color_broadcaster_boarder"/>
+            <stroke
+                android:width="@dimen/broadcaster_avatar_border_width"
+                android:color="@color/you_color_broadcaster_boarder"/>
+            <padding
+                android:left="@dimen/broadcaster_avatar_border_width"
+                android:top="@dimen/broadcaster_avatar_border_width"
+                android:right="@dimen/broadcaster_avatar_border_width"
+                android:bottom="@dimen/broadcaster_avatar_border_width"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/you_color_normal_gray"/>
+            <stroke
+                android:width="@dimen/avatar_border_width"
+                android:color="@color/you_color_light_gray"/>
+            <padding
+                android:left="@dimen/avatar_border_width"
+                android:top="@dimen/avatar_border_width"
+                android:right="@dimen/avatar_border_width"
+                android:bottom="@dimen/avatar_border_width"/>
+        </shape>
+    </item>
+</selector>

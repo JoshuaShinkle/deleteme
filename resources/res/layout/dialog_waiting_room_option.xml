@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/OrganizationOption"
+            android:text="@string/clm_schedule_meeting_waiting_room_organization"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/HostOption"
+            android:text="@string/clm_schedule_meeting_waiting_room_host"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/confirm"
+        android:text="@string/ok"
+        style="@style/DialogSelectionItemCancelText"/>
+</LinearLayout>

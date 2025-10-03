@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    style="@style/ForumsAndPollsItem">
+    <include layout="@layout/view_item_bulletin_basic"/>
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:textSize="12sp"
+        android:textColor="@color/you_color_normal_gray_text"
+        android:ellipsize="end"
+        android:id="@+id/item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:layout_toLeftOf="@+id/item_unread"
+        android:layout_below="@+id/item_title"
+        android:layout_alignLeft="@+id/item_title"
+        emojicon:emojiconSize="12sp"/>
+    <TextView
+        android:id="@+id/item_small_unread"
+        android:background="@drawable/comment_mark_new_forums"
+        android:visibility="invisible"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_margin="@dimen/t10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/t5dp"
+        android:layout_below="@+id/item_content"
+        android:layout_alignLeft="@+id/item_content">
+        <View
+            android:id="@+id/bulletin_content_like_icon"
+            android:background="@drawable/icons_heart_n"
+            android:layout_marginLeft="0dp"
+            style="@style/ForumsAndPollsIcon"/>
+        <TextView
+            android:id="@+id/bulletin_item_string_like_count"
+            style="@style/ForumsAndPollsIconText"/>
+        <View
+            android:background="@drawable/icons_comment"
+            style="@style/ForumsAndPollsIcon"/>
+        <TextView
+            android:id="@+id/bulletin_item_string_comment_count"
+            style="@style/ForumsAndPollsIconText"/>
+        <View
+            android:background="@drawable/icons_time"
+            style="@style/ForumsAndPollsIcon"/>
+        <TextView
+            android:id="@+id/bulletin_item_time"
+            style="@style/ForumsAndPollsIconText"/>
+    </LinearLayout>
+</RelativeLayout>

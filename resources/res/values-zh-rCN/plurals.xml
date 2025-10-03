@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="D_days">
+        <item quantity="one">1 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="D_days_ago">
+        <item quantity="one">1 天前</item>
+        <item quantity="other">%1$d 天前</item>
+    </plurals>
+    <plurals name="bc_datepattern_long_ago_day">
+        <item quantity="zero">%1$d 天前</item>
+        <item quantity="one">1 天前</item>
+        <item quantity="other">%1$d 天前</item>
+    </plurals>
+    <plurals name="bc_datepattern_long_ago_hour">
+        <item quantity="zero">%1$d 小时前</item>
+        <item quantity="one">1 小时前</item>
+        <item quantity="other">%1$d 小时前</item>
+    </plurals>
+    <plurals name="bc_datepattern_long_ago_minute">
+        <item quantity="zero">%1$d 分钟前</item>
+        <item quantity="one">1 分钟前</item>
+        <item quantity="other">%1$d 分钟前</item>
+    </plurals>
+    <plurals name="chatlist_user_delete_photo">
+        <item quantity="one">%1$s 从相册删除了 %2$d 张照片。</item>
+        <item quantity="other">%1$s 从相册删除了 %2$d 张照片。</item>
+    </plurals>
+    <plurals name="chatlist_user_share_photo">
+        <item quantity="one">%1$s 向相册添加了 %2$s 张照片。</item>
+        <item quantity="other">%1$s 向相册添加了 %2$s 张照片。</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_file">
+        <item quantity="one">你删除了 %1$d 个文件。</item>
+        <item quantity="other">你删除了 %1$d 个文件。</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_photo">
+        <item quantity="one">你从相册删除了 %1$d 张照片。</item>
+        <item quantity="other">你从相册删除了 %1$d 张照片。</item>
+    </plurals>
+    <plurals name="chatlist_you_delete_video">
+        <item quantity="one">你删除了 %1$d 个视频。</item>
+        <item quantity="other">你删除了 %1$d 个视频。</item>
+    </plurals>
+    <plurals name="chatlist_you_share_photo">
+        <item quantity="one">你向相册添加了 %1$d 张照片。</item>
+        <item quantity="other">你向相册添加了 %1$d 张照片。</item>
+    </plurals>
+    <plurals name="download_file_success">
+        <item quantity="one">%d 个文件已成功保存。</item>
+        <item quantity="other">%d 个文件已成功保存。</item>
+    </plurals>
+    <plurals name="download_photo_success">
+        <item quantity="one">%d 张照片已成功保存。</item>
+        <item quantity="other">%d 张照片已成功保存。</item>
+    </plurals>
+    <plurals name="download_video_success">
+        <item quantity="one">%d 个视频已成功保存。</item>
+        <item quantity="other">%d 个视频已成功保存。</item>
+    </plurals>
+    <plurals name="event_group_files_delete">
+        <item quantity="one">%1$s 删除了 %2$s 个文件。</item>
+        <item quantity="other">%1$s 删除了 %2$s 个文件。</item>
+    </plurals>
+    <plurals name="event_group_photos_delete">
+        <item quantity="one">%1$s 从相册 %3$s 中删除了 %2$s 张照片。</item>
+        <item quantity="other">%1$s 从相册 %3$s 中删除了 %2$s 张照片。</item>
+    </plurals>
+    <plurals name="event_group_videos_delete">
+        <item quantity="one">%1$s 删除 %2$s 个视频。</item>
+        <item quantity="other">%1$s 删除 %2$s 个视频。</item>
+    </plurals>
+    <plurals name="file_selected">
+        <item quantity="zero">已选择 %1$d 个文件</item>
+        <item quantity="one">已选择 %1$d 个文件</item>
+        <item quantity="other">已选择 %1$d 个文件</item>
+    </plurals>
+    <plurals name="file_type_not_supported">
+        <item quantity="one">不支持所选文件的格式。</item>
+        <item quantity="other">不支持部分所选文件的格式。</item>
+    </plurals>
+    <plurals name="notification_chat_user_share_photos">
+        <item quantity="one">%1$s 向相册 %3$s 添加了 %2$s 张照片。</item>
+        <item quantity="other">%1$s 向相册 %3$s 添加了 %2$s 张照片。</item>
+    </plurals>
+    <plurals name="photo_selected">
+        <item quantity="zero">已选 %1$d 张照片</item>
+        <item quantity="one">已选 %1$d 张照片</item>
+        <item quantity="other">已选 %1$d 张照片</item>
+    </plurals>
+    <plurals name="record_selected">
+        <item quantity="zero">已选择 %1$d 条记录</item>
+        <item quantity="one">已选择 %1$d 条记录</item>
+        <item quantity="other">已选择 %1$d 条记录</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_d">
+        <item quantity="zero">阅读后，此信息将在 %1$d 天后自毁</item>
+        <item quantity="one">阅读后，此信息将在 %1$d 天后自毁</item>
+        <item quantity="other">阅读后，此信息将在 %1$d 天后自毁</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_h">
+        <item quantity="zero">阅读后，此信息将在 %1$d 小时后自毁</item>
+        <item quantity="one">阅读后，此信息将在 %1$d 小时后自毁</item>
+        <item quantity="other">阅读后，此信息将在 %1$d 小时后自毁</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_m">
+        <item quantity="zero">阅读后，此信息将在 %1$d 分钟后自毁</item>
+        <item quantity="one">阅读后，此信息将在 %1$d 分钟后自毁</item>
+        <item quantity="other">阅读后，此信息将在 %1$d 分钟后自毁</item>
+    </plurals>
+    <plurals name="self_destruct_chat_not_start_s">
+        <item quantity="zero">阅读后，此信息将在 %1$d 秒自毁</item>
+        <item quantity="one">阅读后，此信息将在 %1$d 秒自毁</item>
+        <item quantity="other">阅读后，此信息将在 %1$d 秒自毁</item>
+    </plurals>
+    <plurals name="self_destruct_days">
+        <item quantity="zero">%1$d 天</item>
+        <item quantity="one">%1$d 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="self_destruct_hours">
+        <item quantity="zero">%1$d 小时</item>
+        <item quantity="one">%1$d 小时</item>
+        <item quantity="other">%1$d 小时</item>
+    </plurals>
+    <plurals name="self_destruct_minutes">
+        <item quantity="zero">%1$d 分钟</item>
+        <item quantity="one">%1$d 分钟</item>
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="self_destruct_seconds">
+        <item quantity="zero">%1$d 秒</item>
+        <item quantity="one">%1$d 秒</item>
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="video_selected">
+        <item quantity="zero">已选 %1$d 个视频</item>
+        <item quantity="one">已选 %1$d 个视频</item>
+        <item quantity="other">已选 %1$d 个视频</item>
+    </plurals>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView0"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView1"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView2"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView3"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView4"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView5"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView6"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView7"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView8"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView9"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView10"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView11"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView12"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView13"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView14"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView15"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView16"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView17"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView18"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView19"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+        <TextView
+            android:id="@+id/emojiconView20"
+            style="@style/EmojiconPreview"/>
+        <include layout="@layout/view_item_separator"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{E93447D3-1077-4d4f-8489-9E93A6B50159}</guid>
+  <name>
+    <def>Light</def>
+	<chs>
+      亮
+    </chs>
+    <cht>
+      淺色調
+    </cht>
+    <deu>
+      Hell
+    </deu>
+    <enu>
+      Light
+    </enu>
+    <esp>
+      Claro
+    </esp>
+    <fra>
+      Clair
+    </fra>
+    <ita>
+      Colori chiari
+    </ita>
+    <jpn>
+      ライト
+    </jpn>
+    <kor>
+      밝게
+    </kor>
+    <rus>
+      Лёгкий
+    </rus>
+    <nld>
+      Licht
+    </nld>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>Sheryl_Chen</creator>
+  <application_name>YouCamPerfect</application_name>
+  <smart_focus_mode>(1, 1, 1)</smart_focus_mode>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>true</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>    
+    <CLLightColorFilter>DISABLE_SMOOTH</CLLightColorFilter>
+  </body>
+</preset>

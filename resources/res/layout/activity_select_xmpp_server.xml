@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listViewXmppServer"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/you_color_10_percentage_dark"
+        android:dividerHeight="3dp"
+        android:layout_weight="0.7"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_weight="0.1"/>
+    <Button
+        android:id="@+id/buttonDisconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debug_config_xmpp_servers_auto_select_xmpp_button"
+        android:layout_weight="0.1"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

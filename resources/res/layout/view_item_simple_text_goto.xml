@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/EditGotoTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/setting_page_content_item_title_margin_left"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/EditGotoImageView"
+        style="@style/view_item_text_goto_title_style"/>
+    <View
+        android:id="@+id/EditGotoImageView"
+        android:layout_marginRight="7dp"
+        style="@style/ChatGroupItemGoTo"/>
+</RelativeLayout>

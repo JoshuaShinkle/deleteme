@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{03AEFD29-3AAD-4686-8F2E-BFF37E76FA2B}</guid>
+  <name>
+    <def>Soft Light</def>
+	<chs>
+      柔光
+    </chs>
+    <cht>
+      柔光
+    </cht>
+    <deu>
+      Weiches Licht
+    </deu>
+    <enu>
+      Soft Light
+    </enu>
+    <esp>
+      Luz suave
+    </esp>
+    <fra>
+      Lumière douce
+    </fra>
+    <ita>
+      Luce tenue
+    </ita>
+    <jpn>
+      ソフト ライト
+    </jpn>
+    <kor>
+      소프트 라이트
+    </kor>
+    <rus>
+      Мягкий свет
+    </rus>	
+    <nld>
+      Zacht licht
+    </nld>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>Sheryl_Chen</creator>
+  <application_name>YouCamPerfect</application_name>
+  <smart_focus_mode>(1, 1, 1)</smart_focus_mode>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>true</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>    
+    <CLSoftlightColorFilter>DISABLE_SMOOTH</CLSoftlightColorFilter>
+  </body>
+</preset>

@@ -1,0 +1,6 @@
+package com.google.android.gms.common.internal;
+
+/* renamed from: com.google.android.gms.common.internal.a */
+/* loaded from: classes2.dex */
+public final /* synthetic */ class C3458a {
+}

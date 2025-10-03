@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effectList>
+	<effect>
+	    <effect_name>Default</effect_name>
+	    <effect_id>0</effect_id>
+	    <effect_category>private_</effect_category>
+	    <effect_package></effect_package>
+	    <foreign_class>com.cyberlink.cesar.glfxwrapper.Default</foreign_class>
+	</effect>
+</effectList>
+

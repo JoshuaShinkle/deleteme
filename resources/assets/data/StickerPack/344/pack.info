@@ -1,0 +1,29 @@
+﻿{
+results: [
+{
+lastModified: 1500948397,
+packType: "Static",
+purchaseType: "Free",
+publisher: {
+lastModified: 1431682062,
+userId: null,
+defaultName: "WeBackers",
+titleOfUrl: "",
+name: "群募貝果/WeBackers",
+url: ""
+},
+packName: "圓鳥Coca",
+description: "鳥控Era首作貼圖登場…",
+expiration: null,
+iapItem: null,
+url: {
+zip: "http://d21wxpz0rcyext.cloudfront.net/pack/344/344/zip",
+cover: "http://d21wxpz0rcyext.cloudfront.net/pack/344/344/cover",
+thumbnail: "http://d21wxpz0rcyext.cloudfront.net/pack/344/344/thumbnail",
+preview: "http://d21wxpz0rcyext.cloudfront.net/pack/344/344/preview"
+},
+packId: 344,
+publishedDate: 1500948396
+}
+]
+}

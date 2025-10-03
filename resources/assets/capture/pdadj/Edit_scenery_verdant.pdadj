@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{19b4f7dc-f6be-4d4e-a188-1a46f74ac375}</guid>
+  <name>
+    <def>Verdant</def>
+    <chs>
+    翠绿色
+    </chs>
+    <cht>
+    青翠
+    </cht>
+    <deu>
+    Grün
+    </deu>
+    <enu>
+    Verdant
+    </enu>
+    <esp>
+    Verde
+    </esp>
+    <fra>
+    Verdoyant
+    </fra>
+    <ita>
+    Verdeggiante
+    </ita>
+    <jpn>
+    バーダント
+    </jpn>
+    <kor>
+    버던트
+    </kor>
+    <nld>
+    Grasgroen
+    </nld>
+    <rus>
+    Покрытый зеленью
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>true</edit>
+  </mode>
+  <smart_focus_mode>(1, 1, 1)</smart_focus_mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>DISABLE_SMOOTH</FilterType>
+        <EffectMode>SCENERY_VERDANT</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

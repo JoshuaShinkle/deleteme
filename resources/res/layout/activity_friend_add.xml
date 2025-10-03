@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/img_title_back"
+            android:contentDescription="[AID]AddFriend_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:text="@string/friends_invitation_title"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+    </RelativeLayout>
+    <com.cyberlink.you.widgetpool.PeopleSearchView
+        android:id="@+id/search_people"
+        android:padding="@dimen/t9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/friendAddContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View style="@style/divide_line_horizontal"/>
+        <RelativeLayout
+            android:id="@+id/FriendInvitationSelectorLayout"
+            style="@style/ChatGroupItemLayout">
+            <ImageView
+                android:id="@+id/img_invite"
+                android:background="@null"
+                android:src="@drawable/icon_invite"
+                style="@style/ChatGroupItemAvatarSmall"/>
+            <TextView
+                android:text="@string/friends_invitation_selector_string"
+                android:layout_toRightOf="@+id/img_invite"
+                style="@style/ChatGroupItemNameOnly"/>
+            <View style="@style/ChatGroupItemGoTo"/>
+        </RelativeLayout>
+        <View style="@style/divide_line_horizontal"/>
+        <RelativeLayout
+            android:id="@+id/FriendInvitationSelectorQrLayout"
+            style="@style/ChatGroupItemLayout">
+            <ImageView
+                android:id="@+id/img_qrcode"
+                android:background="@null"
+                android:src="@drawable/icon_qrcode"
+                style="@style/ChatGroupItemAvatarSmall"/>
+            <TextView
+                android:text="@string/friends_invitation_qr"
+                android:layout_toRightOf="@+id/img_qrcode"
+                style="@style/ChatGroupItemNameOnly"/>
+            <View style="@style/ChatGroupItemGoTo"/>
+        </RelativeLayout>
+        <View
+            android:layout_marginBottom="@dimen/t8dp"
+            style="@style/divide_line_horizontal"/>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/DepartmentAndFriendContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ExpandableListView
+            android:scrollbarSize="10.2dp"
+            android:scrollbarThumbHorizontal="@drawable/bg_scrollbar_friend_tab"
+            android:scrollbarThumbVertical="@drawable/bg_scrollbar_friend_tab"
+            android:id="@+id/DepartmentList"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@null"
+            android:childDivider="@color/chat_list_divider_gray"
+            android:dividerHeight="@dimen/t1dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/text_no_result"
+            style="@style/NoResultsTextView"/>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progressbar_searching"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"/>
+    </FrameLayout>
+</LinearLayout>

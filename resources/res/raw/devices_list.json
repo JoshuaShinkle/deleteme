@@ -1,0 +1,97 @@
+[
+  {
+    "version": "1"
+  },
+
+  {
+    "model": "|LG-D838|LG-D855|D6503|ONE A2005|MotoG3|K00G|Nexus 9|Mi 10|",
+    "brand": "|lge|Sony|oneplus|motorola|asus|google|Xiaomi|",
+    "capability": {
+      "aecm": true
+    }
+  },
+
+  {
+    "device": "|hwG525-U00|",
+    "brand": "|Huawei|",
+    "capability": {
+      "audio_16kHz": true,
+      "audio_alert": true
+    }
+  },
+  {
+    "hardware": "|mt6797|",
+    "brand": "|Xiaomi|",
+    "capability": {
+      "audio_16kHz": true,
+      "audio_alert": true
+    }
+  },
+
+  {
+    "board": "|msm8226|msm8227|msm8960|msm8994|msm8996|",
+    "brand": "|Sony|",
+    "capability": {
+      "audio_16kHz": true
+    }
+  },
+  {
+    "board": "|msm8226|msm8952|",
+    "brand": "|OPPO|",
+    "capability": {
+      "audio_16kHz": true
+    }
+  },
+  {
+    "manufacturer": "|Xiaomi|",
+    "brand": "|Xiaomi|",
+    "capability": {
+      "audio_16kHz": true
+    }
+  },
+  {
+    "board": "|msm8916|msm8996|msm8998|sdm845|sdm660|",
+    "brand": "|Xiaomi|vivo|",
+    "capability": {
+      "audio_16kHz": true
+    }
+  },
+  {
+    "model": "|CHM-TL00H|Coolpad 8675-A|Coolpad A8-931|N918St|MI 5|KNT-AL10|",
+    "brand": "|Honor|Coolpad|ZTE|Xiaomi|",
+    "capability": {
+      "audio_16kHz": true
+    }
+  },
+  {
+    "model": "|ASUS_A007|",
+    "brand": "|asus|",
+    "capability": {
+      "audio_16kHz": true,
+      "re_init_speaker": true
+    }
+  },
+
+  {
+    "device": "bbk6752_lwt_kk|GiONEE_GBL7319",
+    "model": "vivo X5S L|F103",
+    "capability": {
+      "v_in": false
+    }
+  },
+  {
+    "model": "|SM-J200Y|MI 3|",
+    "brand": "|samsung|Xiaomi|",
+    "capability": {
+      "v_out": false
+    }
+  },
+  {
+    "model": "LG-H815",
+    "brand": "lge",
+    "capability": {
+      "v_in": false,
+      "v_out": false
+    }
+  }
+]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/NoticesActivityHeader"
+        style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/NoticesActivityBackBtn"
+            android:contentDescription="[AID]Notices_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/NoticesActivityTitle"
+            android:text="@string/more_fragment_notice"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+    </RelativeLayout>
+    <ExpandableListView
+        android:id="@+id/NoticesActivityExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:groupIndicator="@null"
+        android:childDivider="@color/you_color_listview_divider"
+        android:divider="@color/you_color_listview_divider"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/NoticesActivityHeader"/>
+    <ProgressBar
+        android:id="@+id/NoticesActivityLoading"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleLarge"/>
+</RelativeLayout>

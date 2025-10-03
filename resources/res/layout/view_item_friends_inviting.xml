@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <ImageView
+        android:id="@+id/FriendsInvitingCircleImageView_DisplayImage"
+        style="@style/ChatGroupItemAvatarSmall"/>
+    <LinearLayout
+        android:id="@+id/FriendsInviting_ButtonArea"
+        style="@style/ButtonAreaLayout">
+        <com.cyberlink.widget.Button2
+            android:id="@+id/FriendsInvitingPinkBtn"
+            style="@style/FriendsFriendsInvitingButtonPink"/>
+        <com.cyberlink.widget.Button2
+            android:id="@+id/FriendsInvitingBtn"
+            android:layout_marginRight="0dp"
+            style="@style/FriendsFriendsInvitingButtonBlue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/FriendsInviting_TextArea"
+        android:layout_marginRight="@dimen/f10dp"
+        android:layout_toLeftOf="@+id/FriendsInviting_ButtonArea"
+        android:layout_toRightOf="@+id/FriendsInvitingCircleImageView_DisplayImage"
+        style="@style/ChatGroupItemMiddleLayout">
+        <com.rockerhieu.emojicon.EmojiconTextView
+            android:id="@+id/FriendsInvitingTextView_DisplayName"
+            style="@style/ChatGroupItemName"/>
+        <com.rockerhieu.emojicon.EmojiconTextView
+            android:textSize="@dimen/t9sp"
+            android:textColor="@color/invite_message_light_grey"
+            android:id="@+id/FriendsInvitingTextView_message"
+            android:visibility="gone"
+            android:layout_marginTop="0dp"
+            style="@style/ChatGroupItemLastMessage"/>
+    </LinearLayout>
+</RelativeLayout>

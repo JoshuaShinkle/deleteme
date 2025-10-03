@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+    android:textColor="@color/black"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:id="@android:id/text1"
+    android:background="@color/white"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:singleLine="true"/>

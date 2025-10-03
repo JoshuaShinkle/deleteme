@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    style="@style/BcDialogPanelStyle">
+    <TextView
+        android:id="@+id/bc_dialog_desc"
+        android:layout_marginTop="@dimen/t22dp"
+        android:layout_marginBottom="@dimen/t22dp"
+        style="@style/BcDialogDescStyle"/>
+    <View
+        android:background="@color/ycl_divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/t45dp"
+        android:divider="@drawable/bc_dialog_divder"
+        android:showDividers="middle">
+        <TextView
+            android:id="@+id/bc_dialog_negative"
+            android:background="@drawable/bc_dialog_button_left"
+            android:text="@string/bc_dialog_button_cancel"
+            style="@style/BcDialogOptionTextStyle"/>
+        <TextView
+            android:id="@+id/bc_dialog_positive"
+            android:background="@drawable/bc_dialog_button_right"
+            android:text="@string/bc_dialog_button_ok"
+            style="@style/BcDialogOptionTextStyle"/>
+    </LinearLayout>
+</LinearLayout>

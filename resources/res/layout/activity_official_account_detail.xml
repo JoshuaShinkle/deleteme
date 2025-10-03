@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/OfficialAccountDetailListView"
+        style="@style/grayDividerListView"/>
+    <com.cyberlink.you.widgetpool.common.ChildPosAndSizeLayout
+        android:orientation="horizontal"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:guideline_height="128"
+        app:guideline_width="1080">
+        <com.cyberlink.you.widgetpool.common.ChildPosAndSizeLayout
+            android:id="@+id/OfficialAccountDetailBackBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:child_height="75"
+            app:child_left="10"
+            app:child_width="75"
+            app:guideline_height="128"
+            app:guideline_width="144">
+            <com.cyberlink.you.widgetpool.common.ChildProportionLayout
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/image_selector_back_shadow_btn"
+                android:duplicateParentState="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:guideline_height="93"
+                app:guideline_width="93"/>
+        </com.cyberlink.you.widgetpool.common.ChildPosAndSizeLayout>
+    </com.cyberlink.you.widgetpool.common.ChildPosAndSizeLayout>
+</RelativeLayout>

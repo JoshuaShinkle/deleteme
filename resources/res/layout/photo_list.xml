@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/imageBorder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.cyberlink.you.groupalbum.SquareImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/doc_thumbnail_default"
+            android:scaleType="centerCrop"/>
+        <CheckBox
+            android:id="@+id/itemCheckBox"
+            android:background="@drawable/custom_checkbox_photo_list"
+            android:focusable="false"
+            android:layout_width="@dimen/photo_list_checkbox_width"
+            android:layout_height="@dimen/photo_list_checkbox_height"
+            android:button="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

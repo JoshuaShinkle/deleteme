@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{a558ccc4-f8e5-4c01-b839-abed32f8fe2c}</guid>
+  <name>
+    <def>Process</def>
+    <chs>
+    底片
+    </chs>
+    <cht>
+    負沖
+    </cht>
+    <deu>
+    Filmnegativ
+    </deu>
+    <enu>
+    Process
+    </enu>
+    <esp>
+    Negativo de película
+    </esp>
+    <fra>
+    Négatif de film
+    </fra>
+    <ita>
+    Negativo pellicola
+    </ita>
+    <jpn>
+    フィルム ネガ
+    </jpn>
+    <kor>
+    필름 네거티브
+    </kor>
+    <nld>
+    Film negatief
+    </nld>
+    <rus>
+    Негатив пленки
+    </rus>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <creator>CyberLink</creator>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>true</edit>
+  </mode>
+  <smart_focus_mode>(1, 1, 1)</smart_focus_mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <CLAphroditeColorFilter>
+        <FilterType>DISABLE_SMOOTH</FilterType>
+        <EffectMode>SCENERY_PROCESS</EffectMode>
+    </CLAphroditeColorFilter>
+  </body>
+</preset>

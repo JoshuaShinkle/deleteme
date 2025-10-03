@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout style="@style/TitleBar">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:contentDescription="[AID]Setting_Back"
+            style="@style/TitleBar_BackButton"/>
+        <TextView
+            android:id="@+id/SettingTopBarTitle"
+            android:text="Meeting Settings"
+            android:layout_centerInParent="true"
+            style="@style/TitleBar_RightTitle"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Pink Noise"
+                style="@style/DevItemSectionText"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/pinkNoiseSwitch"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Enable pink noise"
+                    android:layout_toLeftOf="@+id/pinkNoiseSwitch"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/pinkNoiseMaxVolumeLayout"
+                android:padding="@dimen/t10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/t30dp"
+                    android:layout_marginBottom="@dimen/t8dp">
+                    <TextView
+                        android:textSize="@dimen/t18dp"
+                        android:id="@+id/pinkNoiseMaxVolumeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/debug_meeting_setting_pink_noise_max_volume"
+                        android:layout_centerVertical="true"/>
+                </LinearLayout>
+                <SeekBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/pinkNoiseMaxVolumeSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/pinkNoiseMinVolumeLayout"
+                android:padding="@dimen/t10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/t30dp"
+                    android:layout_marginBottom="@dimen/t8dp">
+                    <TextView
+                        android:textSize="@dimen/t18dp"
+                        android:id="@+id/pinkNoiseMinVolumeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/debug_meeting_setting_pink_noise_min_volume"
+                        android:layout_centerVertical="true"/>
+                </LinearLayout>
+                <SeekBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/pinkNoiseMinVolumeSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <TextView
+                android:text="Poor connection (Do Do) sound"
+                style="@style/DevItemSectionText"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/poorConnectionAudioHintSwitch"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Enable poor connection sound"
+                    android:layout_toLeftOf="@+id/poorConnectionAudioHintSwitch"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/poorConnectionAudioHintVolumeLayout"
+                android:padding="@dimen/t10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/t30dp"
+                    android:layout_marginBottom="@dimen/t8dp">
+                    <TextView
+                        android:textSize="@dimen/t18dp"
+                        android:id="@+id/poorConnectionAudioHintVolumeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/debug_meeting_setting_poor_connection_audio_hint_volume"
+                        android:layout_centerVertical="true"/>
+                </LinearLayout>
+                <SeekBar
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/poorConnectionAudioHintSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <TextView
+                android:text="Video attributes"
+                style="@style/DevItemSectionText"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/enableLowResolution"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Enable low resolution dynamically"
+                    android:layout_toLeftOf="@+id/enableLowResolution"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <TextView
+                android:text="Acoustic Echo Cancellation (AEC)"
+                style="@style/DevItemSectionText"/>
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/DevItemRow">
+                <TextView
+                    android:id="@+id/txtAecBuiltInInfo"
+                    android:text="Built-in AEC is available"
+                    style="@style/DevItemText"/>
+                <TextView
+                    android:id="@+id/txtAecBuiltInDetail"
+                    android:text="Hardware supported; Not in blacklist; Not AOSP implementor."
+                    style="@style/DevItemText.Comment"/>
+            </LinearLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/force16khzSampling"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Force 16kHz sampling rate"
+                    android:layout_toLeftOf="@+id/force16khzSampling"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout
+                android:id="@+id/layoutSoftwareAECM"
+                style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/swtAecm"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Use software AEC Mobile"
+                    android:layout_toLeftOf="@+id/swtAecm"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout
+                android:id="@+id/layoutAospAec"
+                style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/aospAec"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Enable AOSP AEC"
+                    android:layout_toLeftOf="@+id/aospAec"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <TextView
+                android:text="Meeting Automation testing"
+                style="@style/DevItemSectionText"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/repeatCall"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Repeat calling in chatroom"
+                    android:layout_toLeftOf="@+id/repeatCall"
+                    android:layout_alignTop="@+id/repeatCall"
+                    android:layout_alignBottom="@+id/repeatCall"
+                    style="@style/DevItemText.TitleOnly"/>
+                <TextView
+                    android:text="Keep making a voice/video call in chatroom, trigger with $$caller, $$caller voice or $$caller video."
+                    android:layout_below="@+id/repeatCall"
+                    style="@style/DevItemText.Comment"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout
+                android:id="@+id/layoutAutoAnswer"
+                style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/autoAnswer"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Answer any call automatically"
+                    android:layout_toLeftOf="@+id/autoAnswer"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout
+                android:id="@+id/layoutAutoReject"
+                style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/autoReject"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Reject any call automatically"
+                    android:layout_toLeftOf="@+id/autoReject"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/autoHangUp"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Hangup any call automatically"
+                    android:layout_toLeftOf="@+id/autoHangUp"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+            <RelativeLayout style="@style/DevItemRow">
+                <Switch
+                    android:id="@+id/forceE2EE"
+                    style="@style/DevSwitch"/>
+                <TextView
+                    android:text="Force enable E2EE meeting"
+                    android:layout_toLeftOf="@+id/forceE2EE"
+                    style="@style/DevItemText.TitleOnly"/>
+            </RelativeLayout>
+            <View style="@style/DevSeparatorLine"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

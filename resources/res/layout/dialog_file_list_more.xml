@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/shareFiles"
+            android:text="@string/forward_files"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/saveFiles"
+            android:text="@string/save_files"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/deleteFiles"
+            android:text="@string/delete_files"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/DialogCancel"
+        style="@style/DialogSelectionItemCancelText"/>
+</LinearLayout>

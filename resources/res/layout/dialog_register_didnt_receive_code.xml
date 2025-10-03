@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/you_color_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_phone_didnt_crceive_warn_check_number"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/you_color_normal_gray_text"
+        android:gravity="center"
+        android:id="@+id/dialog_register_didnt_receive_code_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/you_color_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/registration_phone_didnt_crceive_warn_check_blovk_sms"/>
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/you_color_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/registration_phone_didnt_crceive_warn_tap_resend"/>
+</LinearLayout>

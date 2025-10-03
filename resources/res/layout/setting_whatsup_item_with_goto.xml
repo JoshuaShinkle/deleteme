@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/EditGotoTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/profile_page_content_item_title_margin_left"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="2dp"
+        android:text=""
+        android:maxLines="2"
+        android:layout_centerVertical="true"
+        style="@style/view_whatsup_item_text_goto_title_style"/>
+    <View
+        android:id="@+id/EditGotoImageView"
+        android:layout_marginRight="7dp"
+        style="@style/ChatGroupItemGoTo"/>
+</RelativeLayout>

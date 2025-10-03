@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BeautyDegreeTextStyle" parent="@style/BeautyDegreeTextBasicStyle">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="BottomToolBarBeautifierFuncBtnTextStyle" parent="@style/BottomToolBarBeautifierFuncBtnTextBasicStyle">
+        <item name="android:textSize">11dp</item>
+    </style>
+    <style name="BottomToolBarBtnTextStyle" parent="@style/BottomToolBarBtnTextBasicStyle">
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="BottomToolBarCropMenuTextStyle" parent="@style/BottomToolBarCropMenuTextBasicStyle">
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="CameraDetectHintTextStyle" parent="@style/CameraDetectHintTextBaseStyle">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="CameraNavigatorButtonTextStyle" parent="@style/CameraNavigatorButtonTextBasicStyle">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="CameraNavigatorSavedToTextStyle" parent="@style/CameraNavigatorTipTextBasicStyle">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="CameraNavigatorTipTextStyle" parent="@style/CameraNavigatorTipTextBasicStyle">
+        <item name="android:textSize">19dp</item>
+    </style>
+    <style name="CameraSettingTextStyle" parent="@style/CameraSettingTextBasicStyle">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="CollageBottomBarButtonText" parent="">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="CropPanelButtonTextStyle" parent="@style/CropPanelButtonTextBasicStyle">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="DownloadGridItemNameStyle" parent="@style/DownloadGridItemNameBasicStyle">
+        <item name="android:textSize">17dp</item>
+    </style>
+    <style name="DownloadGridItemProgressStyle" parent="@style/DownloadGridItemProgressBasicStyle">
+        <item name="android:layout_height">6dp</item>
+    </style>
+    <style name="EditViewCompareButton" parent="">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="EditViewInfoButton" parent="">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+    </style>
+    <style name="EditViewRedoButton" parent="">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="EditViewResetButton" parent="">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginRight">102dp</item>
+    </style>
+    <style name="EditViewSwitchFaceButton" parent="@style/EditViewInfoButton">
+        <item name="android:layout_marginTop">68dp</item>
+    </style>
+    <style name="EditViewUndoButton" parent="">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginRight">56dp</item>
+    </style>
+    <style name="EditViewViewerStyle" parent="">
+        <item name="android:layout_marginTop">53dp</item>
+        <item name="android:layout_marginBottom">59dp</item>
+    </style>
+    <style name="ExtraHomeBtnTextStyle" parent="@style/ExtraHomeBtnTextBasicStyle">
+        <item name="android:textSize">21dp</item>
+    </style>
+    <style name="ExtraLev1TabStyle" parent="@style/ExtraTabBasicStyle">
+        <item name="android:textSize">17dp</item>
+    </style>
+    <style name="ExtraLev2TabStyle" parent="@style/ExtraTabBasicStyle">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="FaceSwitcherMessageText" parent="">
+        <item name="android:textSize">14dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">150dp</item>
+    </style>
+    <style name="FacebookEditTextStyle" parent="">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="GroupProfileUserAvatar" parent="">
+        <item name="android:layout_width">61dp</item>
+        <item name="android:layout_height">61dp</item>
+    </style>
+    <style name="IntroBeforeAfterTextStyle" parent="@style/IntroTextStyle">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="IntroTipTextStyle" parent="@style/IntroTipTextBaseStyle">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="IntroTitleTextStyle" parent="@style/IntroTitleTextBaseStyle">
+        <item name="android:textSize">19dp</item>
+    </style>
+    <style name="IntroTitleTipTextStyle" parent="@style/IntroTextStyle">
+        <item name="android:textSize">13.5dp</item>
+    </style>
+    <style name="LauncherButtonTextStyle" parent="@style/LauncherButtonTextBasicStyle">
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="LauncherRateButtonTextStyle" parent="@style/LauncherRateButtonTextBasicStyle">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="MessageDialogIcon" parent="">
+        <item name="android:layout_width">42dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="MessageDialogText" parent="">
+        <item name="android:textSize">13dp</item>
+        <item name="android:inputType">0x0</item>
+    </style>
+    <style name="MoreHomeBtnTextStyle" parent="@style/MoreHomeBtnTextBasicStyle">
+        <item name="android:textSize">27dp</item>
+    </style>
+    <style name="MorePageTitileStyle" parent="@style/MorePageTitileBasicStyle">
+        <item name="android:textSize">27dp</item>
+    </style>
+    <style name="NoticeBtnStyle" parent="@style/NoticeBtnBasicStyle">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="NoticeItemChildStyle" parent="">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+    <style name="NoticeItemChildTextStyle" parent="">
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="NoticeItemDateTextStyle" parent="">
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="NoticeItemVersionTextStyle" parent="">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="PresetGridItemTextStyle" parent="">
+        <item name="android:textSize">9dp</item>
+    </style>
+    <style name="PresetViewEditModeText" parent="">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="PresetViewIntoSelectLayout" parent="">
+        <item name="android:layout_height">184.5dp</item>
+    </style>
+    <style name="PresetViewIntroBottomPanelArrow" parent="">
+        <item name="android:layout_width">26.5dp</item>
+        <item name="android:layout_height">76.5dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanel" parent="">
+        <item name="android:layout_width">31.5dp</item>
+        <item name="android:layout_height">184.5dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanelArrow" parent="">
+        <item name="android:layout_width">49dp</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+    <style name="PresetViewIntroSelectPanelZoomText" parent="">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="PresetViewSmartFocusMenuBtn" parent="">
+        <item name="android:layout_width">19.5dp</item>
+        <item name="android:layout_height">29.1dp</item>
+    </style>
+    <style name="PresetViewSmartFocusMenuBtnPadding" parent="">
+        <item name="android:paddingRight">24dp</item>
+    </style>
+    <style name="PresetViewSmartFocusSelectPanel" parent="">
+        <item name="android:layout_width">43.5dp</item>
+        <item name="android:layout_height">213.5dp</item>
+    </style>
+    <style name="RateButtonTextStyle" parent="@style/RateUsTextBasicStyle">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="RateUsSavedToTextStyle" parent="@style/RateUsSavedToBasicStyle">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="RateUsTitleTextStyle" parent="@style/RateUsTextBasicStyle">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="RedEyePanelText" parent="">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:inputType">0x0</item>
+    </style>
+    <style name="RemovalPanelText" parent="">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="ShareViewItemStyle" parent="">
+        <item name="android:textSize">19dp</item>
+    </style>
+    <style name="ShareViewMenuStyle" parent="">
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+    <style name="ShareViewMessageStyle" parent="">
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    <style name="ShareViewTitleStyle" parent="">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">7dp</item>
+    </style>
+    <style name="SliderTest" parent="">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">0x11</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:inputType">0x0</item>
+    </style>
+    <style name="SliderValueTextStyle" parent="@style/SliderValueTextBasicStyle">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="TopBarTextStyle" parent="@style/TopBarTextBasicStyle">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="beautifier_text_style" parent="">
+        <item name="android:textSize">13dp</item>
+    </style>
+</resources>

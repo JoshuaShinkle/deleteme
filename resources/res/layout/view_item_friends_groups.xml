@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ChatGroupItemLayout">
+    <RelativeLayout
+        android:id="@+id/FriendsGroupsCircleImageViewLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:id="@+id/FriendsGroupsCircleImageView_DisplayImage"
+            android:src="@drawable/group_default"
+            style="@style/ChatGroupItemAvatarSmall"/>
+        <ImageView
+            android:id="@+id/friendsGroupLockView"
+            android:visibility="gone"
+            android:layout_width="@dimen/t15dp"
+            android:layout_height="@dimen/t15dp"
+            android:layout_marginBottom="@dimen/t2dp"
+            android:src="@drawable/ic_lock_mobile_messenger"
+            android:layout_alignRight="@+id/FriendsGroupsCircleImageView_DisplayImage"
+            android:layout_alignBottom="@+id/FriendsGroupsCircleImageView_DisplayImage"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/FriendsGroupsButtonArea"
+        style="@style/ButtonAreaLayout">
+        <com.cyberlink.widget.Button2
+            android:id="@+id/FriendsGroups_HideBtn"
+            style="@style/FriendsFriendsInvitingButtonGreen"/>
+        <com.cyberlink.widget.Button2
+            android:id="@+id/FriendsGroups_LeaveBtn"
+            style="@style/FriendsFriendsInvitingButtonPink"/>
+        <CheckBox
+            android:id="@+id/chatGroupItemCheckBox"
+            style="@style/ChatGroupItemCheckBox"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/ChatDialogTopBarTitleArea"
+        android:layout_toLeftOf="@+id/FriendsGroupsButtonArea"
+        android:layout_toRightOf="@+id/FriendsGroupsCircleImageViewLayout"
+        style="@style/ChatGroupItemMiddleLayout">
+        <LinearLayout style="@style/ChatGroupItemTopLayout">
+            <com.rockerhieu.emojicon.EmojiconTextView
+                android:id="@+id/FriendsGroupsTextView_GroupName"
+                style="@style/ChatGroupItemName"/>
+            <TextView
+                android:id="@+id/FriendsGroupsTextView_MemberCount"
+                style="@style/ChatGroupItemCount"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+﻿{
+results: [
+{
+lastModified: 1422526555,
+packType: "AnimationPNG",
+purchaseType: "Free",
+publisher: {
+lastModified: 1428486324,
+userId: null,
+defaultName: "CyberLink",
+titleOfUrl: "",
+name: "訊連科技",
+url: ""
+},
+packName: "小屁孩",
+description: null,
+expiration: null,
+iapItem: null,
+url: {
+zip: "http://d21wxpz0rcyext.cloudfront.net/pack/203/203/zip",
+cover: "http://d21wxpz0rcyext.cloudfront.net/pack/203/203/cover",
+thumbnail: "http://d21wxpz0rcyext.cloudfront.net/pack/203/203/thumbnail",
+preview: "http://d21wxpz0rcyext.cloudfront.net/pack/203/203/preview"
+},
+packId: 203,
+publishedDate: 1410269513
+}
+]
+}

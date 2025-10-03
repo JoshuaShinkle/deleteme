@@ -1,0 +1,29 @@
+﻿{
+results: [
+{
+lastModified: 1500951722,
+packType: "AnimationPNG",
+purchaseType: "Free",
+publisher: {
+lastModified: 1428486324,
+userId: null,
+defaultName: "CyberLink",
+titleOfUrl: "",
+name: "訊連科技",
+url: ""
+},
+packName: "職人物語",
+description: null,
+expiration: null,
+iapItem: null,
+url: {
+zip: "http://d21wxpz0rcyext.cloudfront.net/pack/367/367/zip",
+cover: "http://d21wxpz0rcyext.cloudfront.net/pack/367/367/cover",
+thumbnail: "http://d21wxpz0rcyext.cloudfront.net/pack/367/367/thumbnail",
+preview: "http://d21wxpz0rcyext.cloudfront.net/pack/367/367/preview"
+},
+packId: 367,
+publishedDate: 1500951721
+}
+]
+}

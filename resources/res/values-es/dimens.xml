@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sign_up_email_password_text_size">@dimen/t16dp</dimen>
+</resources>

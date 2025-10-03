@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cameraFps">
+        <item>Default</item>
+        <item>30 fps</item>
+        <item>15 fps</item>
+    </array>
+    <array name="com.google.firebase.crashlytics.build_ids_arch">
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+    </array>
+    <array name="com.google.firebase.crashlytics.build_ids_build_id">
+        <item>2b601726b7cd6ec85fd9c8542da8d270fb66e932</item>
+        <item>9151ec9e24cf3b6db153b754739aba5d8baf7efb</item>
+        <item>a52f7554db269c2a766c38859ff4b686cec5b35c</item>
+        <item>8471528fb65d25d15f03c302fd22f90fbe1cfe9d</item>
+        <item>7ea43c28059d49659cfc471724c5e2827501cf72</item>
+        <item>90d642f80820ce9a4fbeedc0c15fa25234539559</item>
+    </array>
+    <array name="com.google.firebase.crashlytics.build_ids_lib">
+        <item>libCLSM.so</item>
+        <item>libDO.so</item>
+        <item>libjingle_peerconnection_so.so</item>
+        <item>libCLSM.so</item>
+        <item>libDO.so</item>
+        <item>libjingle_peerconnection_so.so</item>
+    </array>
+    <array name="country_codes">
+        <item>-</item>
+        <item>AR</item>
+        <item>AU</item>
+        <item>BR</item>
+        <item>BG</item>
+        <item>CA</item>
+        <item>CH</item>
+        <item>CN</item>
+        <item>CZ</item>
+        <item>DE</item>
+        <item>DK</item>
+        <item>ES</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GB</item>
+        <item>GR</item>
+        <item>HU</item>
+        <item>ID</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>KR</item>
+        <item>NL</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>SE</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>TR</item>
+        <item>TW</item>
+        <item>US</item>
+    </array>
+    <array name="preferences_front_light_options">
+        <item>@string/preferences_front_light_on</item>
+        <item>@string/preferences_front_light_auto</item>
+        <item>@string/preferences_front_light_off</item>
+    </array>
+    <array name="preferences_front_light_values">
+        <item>ON</item>
+        <item>AUTO</item>
+        <item>OFF</item>
+    </array>
+    <array name="share_account_white_list">
+        <item>com.perfectcorp.beautycircle</item>
+        <item>com.cyberlink.youcammakeup</item>
+        <item>com.cyberlink.youperfect</item>
+        <item>com.perfectcorp.ycn</item>
+    </array>
+    <array name="startBitrate">
+        <item>Default</item>
+        <item>Manual</item>
+    </array>
+    <array name="videoResolutions">
+        <item>Default</item>
+        <item>HD (1280 x 720)</item>
+        <item>VGA (640 x 480)</item>
+        <item>QVGA (320 x 240)</item>
+    </array>
+    <array name="videoResolutionsValues">
+        <item>Default</item>
+        <item>1280 x 720</item>
+        <item>640 x 480</item>
+        <item>320 x 240</item>
+    </array>
+</resources>

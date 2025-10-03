@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00000000"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/DialogEditComment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/edit_comment"
+            android:contentDescription="[AID]CommentLongClick_Edit"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/DialogRecallComment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/call_back"
+            android:contentDescription="[AID]CommentLongClick_Recall"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/DialogCopyComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/copy"
+            android:contentDescription="[AID]CommentLongClick_Recall"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/DialogResendComment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/menu_resend"
+            android:contentDescription="[AID]CommentLongClick_Resend"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/DialogDeleteComment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/menu_delete"
+            android:contentDescription="[AID]CommentLongClick_Delete"
+            style="@style/DialogSelectionItemText"/>
+        <View style="@style/DialogSelectionItemSpliteLine"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/DialogCancel"
+        android:contentDescription="[AID]CommentLongClick_Cancel"
+        style="@style/DialogSelectionItemCancelText"/>
+</LinearLayout>

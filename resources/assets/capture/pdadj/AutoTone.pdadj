@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><preset>
+  <guid>{32DAE8D5-3E97-473c-8897-5EDD290C5F49}</guid>
+  <name>
+    <def>Auto Tone</def>
+    <chs>
+      自动润色
+    </chs>
+    <cht>
+      自動潤色
+    </cht>
+    <deu>
+      Auto. Farbton
+    </deu>
+    <enu>
+      Auto Tone
+    </enu>
+    <esp>
+      Tonalidad auto.
+    </esp>
+    <fra>
+      Ton automatique
+    </fra>
+    <ita>
+      Tono automatico
+    </ita>
+    <jpn>
+      自動色調
+    </jpn>
+    <kor>
+      자동 톤
+    </kor>
+    <rus>
+      Автотонировка
+    </rus>
+    <nld>
+      Auto. toon
+    </nld>
+  </name>
+  <type>adjustment</type>
+  <preset_type>User</preset_type>
+  <version>6.0</version>
+  <application_name>YouCamPerfect</application_name>
+  <mode>
+    <live>true</live>
+    <capture>true</capture>
+    <edit>false</edit>
+  </mode>
+  <beauty_filter>true</beauty_filter>
+  <body>
+    <gpu_hdr_glow>
+        <strength>70</strength>
+        <radius>2</radius>
+        <balance>-100</balance>
+    </gpu_hdr_glow>
+    <GPUImageExposureFilter>
+        <intensity>0</intensity>
+    </GPUImageExposureFilter>
+  </body>
+</preset>

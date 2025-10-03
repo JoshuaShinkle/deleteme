@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_edittext_radius_gray_border"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/search_bar_height">
+    <ImageView
+        android:id="@+id/SearchIconImageView"
+        style="@style/SearchBarIcons.Icon"/>
+    <ImageView
+        android:id="@+id/SearchEditXImage"
+        android:visibility="gone"
+        style="@style/SearchBarIcons.Cancel"/>
+    <EditText
+        android:id="@+id/SearchEditText"
+        android:layout_toLeftOf="@+id/SearchEditXImage"
+        android:layout_toRightOf="@+id/SearchIconImageView"
+        android:contentDescription="[AID]SearchEditText"
+        style="@style/SearchBarText"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+﻿{
+results: [
+{
+lastModified: 1422526555,
+packType: "AnimationPNG",
+purchaseType: "Free",
+publisher: {
+lastModified: 1428486324,
+userId: null,
+defaultName: "CyberLink",
+titleOfUrl: "",
+name: "訊連科技",
+url: ""
+},
+packName: "How are U",
+description: null,
+expiration: null,
+iapItem: null,
+url: {
+zip: "http://d21wxpz0rcyext.cloudfront.net/pack/229/229/zip",
+cover: "http://d21wxpz0rcyext.cloudfront.net/pack/229/229/cover",
+thumbnail: "http://d21wxpz0rcyext.cloudfront.net/pack/229/229/thumbnail",
+preview: "http://d21wxpz0rcyext.cloudfront.net/pack/229/229/preview"
+},
+packId: 229,
+publishedDate: 1415009374
+}
+]
+}

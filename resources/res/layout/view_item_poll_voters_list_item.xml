@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/department_member_item"
+    style="@style/ChatGroupItemLayout">
+    <ImageView
+        android:id="@+id/PollVoterAvatar"
+        style="@style/ChatGroupItemAvatarSmall"/>
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:ellipsize="end"
+        android:id="@+id/PollVoterDisplayName"
+        android:paddingRight="20dp"
+        android:lines="1"
+        android:layout_toRightOf="@+id/PollVoterAvatar"
+        android:layout_alignParentRight="true"
+        style="@style/DepartmentItemMiddleLayout"/>
+</RelativeLayout>

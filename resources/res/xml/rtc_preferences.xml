@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/videoResolutions"
+        android:title="Video resolution"
+        android:key="resolution_preference"
+        android:defaultValue="Default"
+        android:dialogTitle="Enter local video resolution"
+        android:entryValues="@array/videoResolutionsValues"/>
+    <ListPreference
+        android:entries="@array/cameraFps"
+        android:title="Camera fps"
+        android:key="fps_preference"
+        android:defaultValue="Default"
+        android:dialogTitle="Enter local camera fps"
+        android:entryValues="@array/cameraFps"/>
+    <ListPreference
+        android:entries="@array/startBitrate"
+        android:title="Start bitrate setting"
+        android:key="startbitrate_preference"
+        android:defaultValue="Default"
+        android:dialogTitle="Start bitrate setting"
+        android:entryValues="@array/startBitrate"/>
+    <EditTextPreference
+        android:title="Video encoder start bitrate"
+        android:key="startbitratevalue_preference"
+        android:defaultValue="1000"
+        android:dialogTitle="Enter video encoder start bitrate in kbps"
+        android:inputType="number"/>
+    <CheckBoxPreference
+        android:title="VP8 hardware acceleration"
+        android:key="hwcodec_preference"
+        android:defaultValue="true"
+        android:dialogTitle="Use VP8 VP8 hardware accelerated codec (if available)"/>
+    <CheckBoxPreference
+        android:title="CPU overuse detection"
+        android:key="cpu_usage_detection"
+        android:defaultValue="true"
+        android:dialogTitle="Adapt transmission to CPU status"/>
+</PreferenceScreen>
